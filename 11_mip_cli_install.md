@@ -39,6 +39,8 @@ mac下:
 
 
  出现以下界面显示正在安装
+
+ 
  ![Alt text](./img/11_install.jpg)
 
 
@@ -69,10 +71,10 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 ```
    cnpm install -g mip-cli
 ```
-
+![Alt text](./img/11_done.jpg)
 
 安装成功界面如图
-![Alt text](./img/11_done.jpg)
+![Alt text](./img/11_done2.jpg)
 
 想检验我们是否安装成功可以输入以下命令
 
