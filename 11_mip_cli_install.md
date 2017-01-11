@@ -41,7 +41,7 @@ mac下:
  出现以下界面显示正在安装
 
 
- ![Alt text](./img/11_install.jpg)
+ ![Alt text](https://github.com/mipengine/mip-blog/blob/master/img/11_install.jpg)
 
 
  注意： **nodejs 5.x, 6.x** 安装模块时，可能会报**node-gyp**相关错误，像这样
