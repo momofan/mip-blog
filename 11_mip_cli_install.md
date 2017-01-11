@@ -29,7 +29,7 @@ mac下:
 
 
 示例:    
-![Alt text](../img/11_version.jpg)
+![Alt text](./img/11_version.jpg)
 
 将安装好的node打开 分别输入以下两条指令
 
