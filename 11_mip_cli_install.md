@@ -6,13 +6,11 @@
 node的安装方法:
 
     windows下:[node安装教程](https://www.baidu.com/s?wd=windows%E4%B8%8B%E5%AE%89%E8%A3%85node&rsv_spt=1&rsv_iqid=0xd4abf74300005ce5&issp=1&f=8&rsv_bp=1&rsv_idx=2&ie=utf-8&rqlang=cn&tn=93912046_hao_pg&rsv_enter=1&oq=node%20%E5%AE%89%E8%A3%85&rsv_t=a785CqyQ9RpKKCL78%2BpfCb%2BYbG57Dg9%2BVh8nCkL11e%2Fy4rNwHzfH1OLxqhlqOneaYodNDKwf&rsv_sug1=49&rsv_sug7=101&rsv_pq=8ecb9b0c00007ff4&rsv_sug3=36&rsv_sug2=0&inputT=24514&rsv_sug4=26243)
-
     mac下:[node安装教程](https://www.baidu.com/s?wd=windows%E4%B8%8B%E5%AE%89%E8%A3%85node&rsv_spt=1&rsv_iqid=0xd4abf74300005ce5&issp=1&f=8&rsv_bp=1&rsv_idx=2&ie=utf-8&rqlang=cn&tn=93912046_hao_pg&rsv_enter=1&oq=node%20%E5%AE%89%E8%A3%85&rsv_t=a785CqyQ9RpKKCL78%2BpfCb%2BYbG57Dg9%2BVh8nCkL11e%2Fy4rNwHzfH1OLxqhlqOneaYodNDKwf&rsv_sug1=49&rsv_sug7=101&rsv_pq=8ecb9b0c00007ff4&rsv_sug3=36&rsv_sug2=0&inputT=24514&rsv_sug4=26243)
 
 git的安装方法:
 
     windows下:[git安装教程](https://www.baidu.com/s?wd=windows%E4%B8%8B%E5%AE%89%E8%A3%85git&rsv_spt=1&rsv_iqid=0xd4abf74300005ce5&issp=1&f=8&rsv_bp=1&rsv_idx=2&ie=utf-8&rqlang=cn&tn=93912046_hao_pg&rsv_enter=1&oq=mac%E4%B8%8B%E5%AE%89%E8%A3%85nodejs&rsv_t=d110N%2Bj0kMrkYiNWUYjNtW9ux3ILb%2BI2AwypVDVonpP%2B%2Bvbxi01rUp55PQDNPlK0XGIVB83w&rsv_pq=c402cbb000009353&inputT=24514&rsv_sug3=58&rsv_sug1=67&rsv_sug7=100&bs=mac%E4%B8%8B%E5%AE%89%E8%A3%85nodejs)
-
     mac下:[git安装教程](https://www.baidu.com/s?wd=mac%E4%B8%8B%E5%AE%89%E8%A3%85git&rsv_spt=1&rsv_iqid=0xd4abf74300005ce5&issp=1&f=8&rsv_bp=1&rsv_idx=2&ie=utf-8&rqlang=cn&tn=93912046_hao_pg&rsv_enter=1&oq=windows%E4%B8%8B%E5%AE%89%E8%A3%85git&rsv_t=5eb6FU22Qo8IXaLHm6afHBRe%2F3ncNACCRxIOkR6QAP0EFBKXn4UWWypr7vvRhOmPjcdKnhWF&rsv_pq=fde61d5200009578&inputT=69859&rsv_sug3=65&rsv_sug1=72&rsv_sug7=100&bs=windows%E4%B8%8B%E5%AE%89%E8%A3%85git)
 
 ## 安装
