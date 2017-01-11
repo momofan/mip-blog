@@ -74,7 +74,6 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 
 ```
    cnpm install -g mip-cli
-
 ```
 
 ![Alt text](./img/11_done.jpg)
@@ -101,7 +100,6 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 
 ```
 npm i -g mip-extension-optimizer
-
 ```
 
 安装成功如下图：
