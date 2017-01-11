@@ -94,7 +94,7 @@ $ [sudo] npm install --unsafe-perm -g mip-cli
 
 <span id="question2"></span>
 
-
+***
 如果npm安装模块出了问题，请尝试淘宝**npm**镜像**-cnpm**进行安装
 
 
