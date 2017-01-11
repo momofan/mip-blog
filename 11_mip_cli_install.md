@@ -25,7 +25,7 @@ mac下:
 [git安装教程](https://www.baidu.com/s?wd=mac%E4%B8%8B%E5%AE%89%E8%A3%85git&rsv_spt=1&rsv_iqid=0xd4abf74300005ce5&issp=1&f=8&rsv_bp=1&rsv_idx=2&ie=utf-8&rqlang=cn&tn=93912046_hao_pg&rsv_enter=1&oq=windows%E4%B8%8B%E5%AE%89%E8%A3%85git&rsv_t=5eb6FU22Qo8IXaLHm6afHBRe%2F3ncNACCRxIOkR6QAP0EFBKXn4UWWypr7vvRhOmPjcdKnhWF&rsv_pq=fde61d5200009578&inputT=69859&rsv_sug3=65&rsv_sug1=72&rsv_sug7=100&bs=windows%E4%B8%8B%E5%AE%89%E8%A3%85git)
 
 ## 安装
-依赖环境:** Node.js (>=4.x)**
+依赖环境:**Node.js (>=4.x)**
 如果你不知道你安装的node是什么版本请在node中输入以下指令
 
 
@@ -35,7 +35,7 @@ node -v
 
 
 示例:    
-![Alt text](https://github.com/mipengine/mip-blog/blob/master/img/11_mip_V.jpg)
+![Alt text](https://github.com/mipengine/mip-blog/blob/master/img/11_node_v.jpg)
 
 将安装好的node打开 分别输入以下两条指令
 
