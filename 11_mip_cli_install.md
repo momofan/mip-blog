@@ -47,6 +47,7 @@ mac下:
  注意： **nodejs 5.x, 6.x** 安装模块时，可能会报**node-gyp**相关错误，像这样
 
 
+
 ![Alt text](./img/11_error.jpg)
 
 
@@ -73,10 +74,13 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 
 ```
    cnpm install -g mip-cli
+
 ```
+
 ![Alt text](./img/11_done.jpg)
 
 安装成功界面如图
+
 ![Alt text](./img/11_done2.jpg)
 
 想检验我们是否安装成功可以输入以下命令
@@ -101,6 +105,7 @@ npm i -g mip-extension-optimizer
 ```
 
 安装成功如下图：
+
 ![Alt text](./img/11_optimizer.jpg)
 
 至此，我们就成功安装了mip-cli工具。
