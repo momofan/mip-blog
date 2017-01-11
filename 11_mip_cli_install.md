@@ -22,7 +22,7 @@ MIP-CLI：mip开发工具，用于MIP页面和组件的开发和校验。
 示例:     
 ![Alt text](https://github.com/mipengine/mip-blog/blob/master/img/11_node_v.jpg)
 
-将安装好的node打开 输入以下指令:
+将安装好的node打开 输入以下指令：
 
 ```
 $ [sudo] npm install -g mip-cli
@@ -82,7 +82,7 @@ $ [sudo] npm install --unsafe-perm -g mip-cli
 
 ### 使用cnpm镜像安装  
 
-如果npm安装模块出了问题，请尝试**npm**镜像**-cnpm**进行安装
+如果npm安装模块出了问题，请尝试**npm**镜像**-cnpm**进行安装：
 
 
 ```
@@ -90,7 +90,7 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 ```
 
 
-安装淘宝镜像完成后再重复上述步骤
+安装淘宝镜像完成后再重复上述步骤：
 
 
 ```
