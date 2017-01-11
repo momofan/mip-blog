@@ -74,7 +74,7 @@ npm i -g mip-extension-optimizer
 
 ## 安装过程中可能出现的问题
 
-<div id="question1"> </div>
+<div id="question1">   </div>
 
  注意： **nodejs 5.x, 6.x** 安装模块时，可能会报**node-gyp**相关错误，像这样
 
