@@ -29,7 +29,7 @@ mac下:
 
 
 示例:    
-![Alt text](./img/11_mip_V.jpg)
+![Alt text](https://mipengine/mip-blog/blob/master/img/11_mip_V.jpg?raw=true" alt="11_mip_V.jpg)
 
 将安装好的node打开 分别输入以下两条指令
 
@@ -41,7 +41,7 @@ mac下:
  出现以下界面显示正在安装
 
 
- ![Alt text](https://mipengine/mip-blog/blob/master/img/11_install.jpg?raw=true" alt="11_install.jpg)
+ ![Alt text](./img/11_install.jpg)
 
 
  注意： **nodejs 5.x, 6.x** 安装模块时，可能会报**node-gyp**相关错误，像这样
