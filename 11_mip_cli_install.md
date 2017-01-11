@@ -1,6 +1,6 @@
 # MIP-CLI 开发工具安装步骤详解
 
-## 前提条件
+## MIP-CLI 依赖
 需要安装**node**环境以及**git**
 
 node的安装方法:
@@ -21,14 +21,12 @@ git的安装方法:
  [git安装教程](https://www.baidu.com/s?wd=mac%E4%B8%8B%E5%AE%89%E8%A3%85git&rsv_spt=1&rsv_iqid=0xd4abf74300005ce5&issp=1&f=8&rsv_bp=1&rsv_idx=2&ie=utf-8&rqlang=cn&tn=93912046_hao_pg&rsv_enter=1&oq=windows%E4%B8%8B%E5%AE%89%E8%A3%85git&rsv_t=5eb6FU22Qo8IXaLHm6afHBRe%2F3ncNACCRxIOkR6QAP0EFBKXn4UWWypr7vvRhOmPjcdKnhWF&rsv_pq=fde61d5200009578&inputT=69859&rsv_sug3=65&rsv_sug1=72&rsv_sug7=100&bs=windows%E4%B8%8B%E5%AE%89%E8%A3%85git)
 
 ## 安装
-依赖环境:**Node.js (>=4.x)**
+依赖环境:**Node.js (>=4.x)**  
 如果你不知道你安装的node是什么版本请在node中输入以下指令
-
 
 ```
 node -v
 ```
-
 
 示例:    
 ![Alt text](https://github.com/mipengine/mip-blog/blob/master/img/11_node_v.jpg)
@@ -44,6 +42,36 @@ $ [sudo] npm install -g mip-cli
 
 
  ![Alt text](https://github.com/mipengine/mip-blog/blob/master/img/11_install.jpg)
+
+
+
+想检验我们是否安装成功可以输入以下命令
+
+
+```
+mip -V
+```
+
+如果出现了mip的版本号，则表示安装成功
+
+![Alt text](https://github.com/mipengine/mip-blog/blob/master/img/11_mip_V.jpg)
+
+
+接下来我们还需要安装optimizer
+再输入一个命令
+
+
+```
+npm i -g mip-extension-optimizer
+```
+
+安装成功如下图：
+
+![Alt text](https://github.com/mipengine/mip-blog/blob/master/img/11_optimizer.jpg)
+
+至此，我们就成功安装了mip-cli工具。
+
+## 安装过程中可能出现的问题
 
 
  注意： **nodejs 5.x, 6.x** 安装模块时，可能会报**node-gyp**相关错误，像这样
@@ -83,29 +111,3 @@ cnpm install -g mip-cli
 安装成功界面如图
 
 ![Alt text](https://github.com/mipengine/mip-blog/blob/master/img/11_done2.jpg)
-
-想检验我们是否安装成功可以输入以下命令
-
-
-```
-mip -V
-```
-
-如果出现了mip的版本号，则表示安装成功
-
-![Alt text](https://github.com/mipengine/mip-blog/blob/master/img/11_mip_V.jpg)
-
-
-接下来我们还需要安装optimizer
-再输入一个命令
-
-
-```
-npm i -g mip-extension-optimizer
-```
-
-安装成功如下图：
-
-![Alt text](https://github.com/mipengine/mip-blog/blob/master/img/11_optimizer.jpg)
-
-至此，我们就成功安装了mip-cli工具。
