@@ -36,7 +36,7 @@ node -v
 ```
 $ [sudo] npm install -g mip-cli
 ```
-如果此处安装出现问题，[请点这里](#question1)
+如果此处安装出现问题，<a href="#question1">
 
  出现以下界面显示正在安装
 
