@@ -1,5 +1,4 @@
-# MIP环境搭建问题解答
-   MIP CLI 工具 
+# MIP-CLI 开发工具安装步骤详解
 
 ## 前提条件
 需要安装**node**环境以及**git**
@@ -31,7 +30,7 @@ mac下:
 
 
 ```
- node -v
+node -v
 ```
 
 
@@ -41,7 +40,7 @@ mac下:
 将安装好的node打开 分别输入以下两条指令
 
 ```
-  $ [sudo] npm install -g mip-cli
+$ [sudo] npm install -g mip-cli
 ```
 
 
@@ -61,7 +60,7 @@ mac下:
 需要使用如下命令安装
 
 ```
-    $ [sudo] npm install --unsafe-perm -g mip-cli
+$ [sudo] npm install --unsafe-perm -g mip-cli
 ```
 
 
@@ -80,7 +79,7 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 
 
 ```
-   cnpm install -g mip-cli
+cnpm install -g mip-cli
 ```
 
 ![Alt text](https://github.com/mipengine/mip-blog/blob/master/img/11_done.jpg)
@@ -93,7 +92,7 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 
 
 ```
-	mip -V
+mip -V
 ```
 
 如果出现了mip的版本号，则表示安装成功
