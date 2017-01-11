@@ -57,6 +57,7 @@ mip -V
 ![Alt text](https://github.com/mipengine/mip-blog/blob/master/img/11_mip_V.jpg)
 
 如果无法使用npm进行安装，[请点这里](#question2)  
+
 接下来我们还需要安装optimizer
 再输入一个命令
 
@@ -73,7 +74,7 @@ npm i -g mip-extension-optimizer
 
 ## 安装过程中可能出现的问题
 
-</div id="question1">
+<span id="question1"></span>
  注意： **nodejs 5.x, 6.x** 安装模块时，可能会报**node-gyp**相关错误，像这样
 
 
@@ -91,7 +92,7 @@ $ [sudo] npm install --unsafe-perm -g mip-cli
    **nodejs 5.x** 安装**bufferutil**模块时可能会报编译错误，建议使用**4.4**或者**6.x**以上版本。
 
 
-</div id="question2">
+<span id="question2"></span>
 
 
 如果npm安装模块出了问题，请尝试淘宝**npm**镜像**-cnpm**进行安装
