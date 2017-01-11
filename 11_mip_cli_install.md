@@ -21,13 +21,12 @@ git的安装方法:
  [git安装教程](https://www.baidu.com/s?wd=mac%E4%B8%8B%E5%AE%89%E8%A3%85git&rsv_spt=1&rsv_iqid=0xd4abf74300005ce5&issp=1&f=8&rsv_bp=1&rsv_idx=2&ie=utf-8&rqlang=cn&tn=93912046_hao_pg&rsv_enter=1&oq=windows%E4%B8%8B%E5%AE%89%E8%A3%85git&rsv_t=5eb6FU22Qo8IXaLHm6afHBRe%2F3ncNACCRxIOkR6QAP0EFBKXn4UWWypr7vvRhOmPjcdKnhWF&rsv_pq=fde61d5200009578&inputT=69859&rsv_sug3=65&rsv_sug1=72&rsv_sug7=100&bs=windows%E4%B8%8B%E5%AE%89%E8%A3%85git)
 
 
-## 安装
-依赖环境: **Node.js (>=4.x)**  
-如果你不知道你安装的node是什么版本请在node中输入以下指令
+## 安装MIP-CLI
 
-```
-node -v
-```
+MIP-CLI：mip开发工具，用于MIP页面和组件的开发和校验。  
+
+依赖环境: **Node.js (>=4.x)**  
+输入`node -v` 查看node版本，如果版本为5.x，6.x，<a href="#question1">请点击这里</a>。
 
 示例:     
 ![Alt text](https://github.com/mipengine/mip-blog/blob/master/img/11_node_v.jpg)
@@ -37,7 +36,6 @@ node -v
 ```
 $ [sudo] npm install -g mip-cli
 ```
-如果此处安装出现问题，<a href="#question1">请点击这里</a>。
 
  出现以下界面显示正在安装
 
@@ -45,21 +43,17 @@ $ [sudo] npm install -g mip-cli
  ![Alt text](https://github.com/mipengine/mip-blog/blob/master/img/11_install.jpg)
 
 
+如果安装过程中有报错，<a href="#question2">请点击这里查看解决办法</a> 。  
 
-想检验我们是否安装成功可以输入以下命令
-
-
-```
-mip -V
-```
-
-如果出现了mip的版本号，则表示安装成功
+检验是否安装成功可以输入`mip -V`，如果出现mip版本号，则表示安装成功。
 
 ![Alt text](https://github.com/mipengine/mip-blog/blob/master/img/11_mip_V.jpg)
 
-如果无法使用npm进行安装，<a href="#question2">请点击这里</a> 。
+
 
 ## 安装 mip-extension-optimizer
+
+MIP-extension-optimizer: mip组件编译工具，用于将mip-extension中的特定组件源码编译成js文件。  
 
 ```
 npm i -g mip-extension-optimizer
