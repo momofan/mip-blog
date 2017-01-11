@@ -5,10 +5,10 @@
 
 node的安装方法:
 
-    windows下:
+windows下:
 [node安装教程](https://www.baidu.com/s?wd=windows%E4%B8%8B%E5%AE%89%E8%A3%85node&rsv_spt=1&rsv_iqid=0xd4abf74300005ce5&issp=1&f=8&rsv_bp=1&rsv_idx=2&ie=utf-8&rqlang=cn&tn=93912046_hao_pg&rsv_enter=1&oq=node%20%E5%AE%89%E8%A3%85&rsv_t=a785CqyQ9RpKKCL78%2BpfCb%2BYbG57Dg9%2BVh8nCkL11e%2Fy4rNwHzfH1OLxqhlqOneaYodNDKwf&rsv_sug1=49&rsv_sug7=101&rsv_pq=8ecb9b0c00007ff4&rsv_sug3=36&rsv_sug2=0&inputT=24514&rsv_sug4=26243)
 
-    mac下:
+mac下:
 [node安装教程](https://www.baidu.com/s?wd=windows%E4%B8%8B%E5%AE%89%E8%A3%85node&rsv_spt=1&rsv_iqid=0xd4abf74300005ce5&issp=1&f=8&rsv_bp=1&rsv_idx=2&ie=utf-8&rqlang=cn&tn=93912046_hao_pg&rsv_enter=1&oq=node%20%E5%AE%89%E8%A3%85&rsv_t=a785CqyQ9RpKKCL78%2BpfCb%2BYbG57Dg9%2BVh8nCkL11e%2Fy4rNwHzfH1OLxqhlqOneaYodNDKwf&rsv_sug1=49&rsv_sug7=101&rsv_pq=8ecb9b0c00007ff4&rsv_sug3=36&rsv_sug2=0&inputT=24514&rsv_sug4=26243)
 
 git的安装方法:
