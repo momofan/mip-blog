@@ -41,14 +41,14 @@ mac下:
  出现以下界面显示正在安装
 
 
- ![Alt text](./img/11_install.jpg)
+ ![Alt text](https://mipengine/mip-blog/blob/master/img/11_install.jpg?raw=true" alt="11_install.jpg)
 
 
  注意： **nodejs 5.x, 6.x** 安装模块时，可能会报**node-gyp**相关错误，像这样
 
 
 
-![Alt text](./img/11_error.jpg)
+![Alt text](https://mipengine/mip-blog/blob/master/img/11_error.jpg?raw=true" alt="11_error.jpg)
 
 
 需要使用如下命令安装
@@ -76,11 +76,11 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
    cnpm install -g mip-cli
 ```
 
-![Alt text](./img/11_done.jpg)
+![Alt text](https://mipengine/mip-blog/blob/master/img/11_done.jpg?raw=true" alt="11_done.jpg)
 
 安装成功界面如图
 
-![Alt text](./img/11_done2.jpg)
+![Alt text](https://mipengine/mip-blog/blob/master/img/11_done2.jpg?raw=true" alt="11_done2.jpg)
 
 想检验我们是否安装成功可以输入以下命令
 
@@ -91,7 +91,7 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 
 如果出现了mip的版本号，则表示安装成功
 
-![Alt text](./img/11_mip_V.jpg)
+![Alt text](https;//mipengine/mip-blog/blob/master/img/11_mip_V.jpg?raw=true" alt="11_mip_V.jpg)
 
 
 接下来我们还需要安装optimizer
@@ -104,6 +104,6 @@ npm i -g mip-extension-optimizer
 
 安装成功如下图：
 
-![Alt text](./img/11_optimizer.jpg)
+![Alt text](https://mipengine/mip-blog/blob/master/img/11_optimizer.jpg?raw=true" alt="11_optimizer.jpg)
 
 至此，我们就成功安装了mip-cli工具。
