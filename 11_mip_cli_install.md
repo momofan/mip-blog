@@ -36,7 +36,7 @@ node -v
 ```
 $ [sudo] npm install -g mip-cli
 ```
-如果此处安装出现问题，<a href="#question1">请点击这里
+如果此处安装出现问题，<a href="#question1">请点击这里</a>
 
  出现以下界面显示正在安装
 
@@ -56,7 +56,7 @@ mip -V
 
 ![Alt text](https://github.com/mipengine/mip-blog/blob/master/img/11_mip_V.jpg)
 
-如果无法使用npm进行安装，[请点这里](#question2)  
+如果无法使用npm进行安装，<a href="#question2">请点击这里</a> 
 
 接下来我们还需要安装optimizer
 再输入一个命令
