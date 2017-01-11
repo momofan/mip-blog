@@ -40,12 +40,15 @@ mac下:
 
  出现以下界面显示正在安装
 
- 
+
  ![Alt text](./img/11_install.jpg)
 
 
  注意： **nodejs 5.x, 6.x** 安装模块时，可能会报**node-gyp**相关错误，像这样
+
+
 ![Alt text](./img/11_error.jpg)
+
 
 需要使用如下命令安装
 
