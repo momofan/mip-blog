@@ -25,6 +25,7 @@ $ mip init
 ```
 $ mip add index.html
 ```
+![index.html](./img/12_indexhtml.jpg)  
 
 可以在新建网页的时候可以添加需要载入的mip组件，例如：
 
