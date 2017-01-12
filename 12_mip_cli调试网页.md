@@ -5,8 +5,10 @@
 ![Alt text](./img/12_gitbash.jpg)，若右键菜单无此命令可以使用cd命令进入到目录中：
 
 ```
-cd mip-project
+cd mip
+
 ```
+![cdmip](./img/12_cdmip.jpg)  
 
 ### 2.初始化mip配置
 我们在当前根目录下进行初始化mip 配置：  
