@@ -2,13 +2,13 @@
 
 ## 1.准备工作
 先创建一个本地开发组件用的文件夹，存储位置自选，建议存储空间足够大，这时我们已经安装好了git，右键点击此文件夹弹出菜单 我们选择
-![Alt text](./img/12_gitbash.jpg)，若右键菜单无此命令可以使用cd命令进入到目录中：
+![Alt text](https://github.com/mipengine/mip-blog/blob/master/img/12_gitbash.jpg)，若右键菜单无此命令可以使用cd命令进入到目录中：
 
 ```
 cd mip
 
 ```
-![cdmip](./img/12_cdmip.jpg)  
+![cdmip](https://github.com/mipengine/mip-blog/blob/master/img/12_cdmip.jpg)  
 
 ## 2.初始化mip配置
 我们在当前根目录下进行初始化mip 配置：  
@@ -18,11 +18,11 @@ $ mip init
 
 ```
 
-![mipinit](./img/12_mipinit.jpg)  
+![mipinit](https://github.com/mipengine/mip-blog/blob/master/img/12_mipinit.jpg)  
 
 此时会创建`mip.config`文件，  
 
-![mip.config](./img/12_mipconfig.jpg)
+![mip.config](https://github.com/mipengine/mip-blog/blob/master/img/12_mipconfig.jpg)
 
 ## 3.新建一个MIP网页
 
@@ -30,15 +30,15 @@ $ mip init
 ```
 $ mip add index.html
 ```
-![addindex](./img/12_addindex.jpg)
+![addindex](https://github.com/mipengine/mip-blog/blob/master/img/12_addindex.jpg)
 
 成功添加后，本地文件夹中会出现index.html 文件
 
-![index.html](./img/12_indexhtml.jpg)  
+![index.html](https://github.com/mipengine/mip-blog/blob/master/img/12_indexhtml.jpg)  
 
 打开index.html 文件会发现，系统已经自动生成一个基础的MIP页面  
 
-![index](./img/12_index.jpg)
+![index](https://github.com/mipengine/mip-blog/blob/master/img/12_index.jpg)
 
 ## 4.编写mip网页代码
 
@@ -56,7 +56,7 @@ $ mip validate index.html
 
 例如：
 
-![validate](./img/12_validate.jpg)  
+![validate](https://github.com/mipengine/mip-blog/blob/master/img/12_validate.jpg)  
 
 
 **注意**： 
@@ -74,7 +74,7 @@ https://www.mipengine.org/validator/validate
 $ mip server
 ```
 
-![Alt text](./img/12_mipserver.jpg)  
+![Alt text](https://github.com/mipengine/mip-blog/blob/master/img/12_mipserver.jpg)  
 
 **注意**：
 
