@@ -1,9 +1,7 @@
 #调试MIP网页
 
 1. 先创建一个本地开发组件用的文件夹，存储位置自选，建议存储空间足够大，这时我们已经安装好了git，右键点击此文件夹弹出菜单 我们选择
-![Alt text](./img/12_gitbash.jpg)
-
-若右键菜单无此命令可以使用cd命令进入到目录中  
+![Alt text](./img/12_gitbash.jpg)若右键菜单无此命令可以使用cd命令进入到目录中  
 
 ```
 cd mip-project
@@ -16,7 +14,8 @@ $ mip init
 
 ```
 
-会创建`mip.config`文件，
+会创建`mip.config`文件，  
+
 ![mip.config](./img/12_mipconfig.jpg)
 
 3. 新建一个MIP网页
