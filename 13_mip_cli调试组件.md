@@ -25,26 +25,39 @@ $ cd mip-extensions
 $ mip server
 
 ```
-![mipserver](./img/12_mipserver.jpg)  
+![mipserver](./img/13_mipserver.jpg)  
 
-然后访问`http://127.0.01:8000`进入调试页面。  
 
 #### 2.创建mip组件
 
 在`mip-extensions`目录中创建组件：
 
 ```
-$ mip addelement mip-demo
+$ mip addelement mip-demo  
 ```
+![addelement](./img/13_addelement.jpg)  
 
-创建`mip-demo`组件，开始编写mip-demo组件代码以及`README.md`文件。
+在`mip-extensions`文件夹中创建了`mip-demo`组件，
+
+![mip-demo](./img/13_mip-demo.jpg)  
+
+
+可以开始编写mip-demo组件代码以及`README.md`文件。
 
 **注意**
 `README.md`文件中必须包含组件示例代码，`mip server`不会自动生成组件使用代码。
 
-#### 3.打开调试网页`http://127.0.0.1:8000/`会列出当前仓库中的组件，点击进入`mip-demo`组件预览。
+#### 3.打开调试网页`http://127.0.0.1:8000/`会列出当前仓库中的组件，点击进入`mip-demo`组件预览。 
+
+访问`http://127.0.01:8000`进入调试页面。 
+
+![extension-list](./img/13_extension-list.jpg)    
+
 
 ![mip-extensions-list](https://raw.githubusercontent.com/mipengine/mip-cli/gh-pages/example/mip-extensions-list.png)
+
+
+
 
 在`mip-extensions`中修改组件代码保存后，`mip server`会自动刷新预览页面。
 
