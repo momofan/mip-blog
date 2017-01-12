@@ -51,13 +51,7 @@ $ mip addelement mip-demo
 
 访问`http://127.0.01:8000`进入调试页面。 
 
-![extension-list](./img/13_extension-list.jpg)    
-
-
-![mip-extensions-list](https://raw.githubusercontent.com/mipengine/mip-cli/gh-pages/example/mip-extensions-list.png)
-
-
-
+![extension-list](./img/13_extension-list.jpg)      
 
 在`mip-extensions`中修改组件代码保存后，`mip server`会自动刷新预览页面。
 
@@ -67,7 +61,7 @@ $ mip addelement mip-demo
 $ mip validateelement mip-demo
 ```
 
-![mip-etensions-validate](https://raw.githubusercontent.com/mipengine/mip-cli/gh-pages/example/mip-etensions-validate.png)
+![mip-etensions-validate](./img/mipvalidate.jpg)
 
 组件通过校验之后，提交到仓库.
 
@@ -80,7 +74,8 @@ $ mip validateelement mip-demo
 
 例如：项目结构如下`mip-demo`为mip组件，`mip-demo.html`为使用了`mip-demo`组件的页面。
 
-![mip-demo-debug](https://raw.githubusercontent.com/mipengine/mip-cli/gh-pages/example/mip-demo-debug.png)
+![ll](./img/13_ll.jpg)  
+
 
 mip-demo.html代码如下:
 
@@ -112,7 +107,7 @@ mip-demo.html代码如下:
 所有组件调试时引入方式都按照线上地址就可以，`mip server`会自动进行页面注入。
 
 
-1.修改`mip.config`的字段`extensionsDir`为'./'，注意，是'./'不是'.'。
+1.修改`mip.config`的字段`extensionsDir`为`./`，注意，是`./`不是`.`。
 
 ```javascript
     /**
@@ -130,15 +125,3 @@ mip-demo.html代码如下:
 
 
 
-
-进入到该目录下，输入这行命令 克隆一个mip-extensions的版本库：
-
-`$ git clone  https://github.com/mipengine/mip-extensions.git`
-
-出现如下代表克隆完成
-
-![Alt text](./img/12_gitclone.jpg)
-
-这时你会发现之前创建的文件夹里多了这个文件夹
-
-![Alt text](./img/12_mip-extensions.jpg)
