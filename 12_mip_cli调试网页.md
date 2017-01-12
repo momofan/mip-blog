@@ -20,7 +20,7 @@ $ mip init
 
 ![mip.config](./img/12_mipconfig.jpg)
 
-### 3.新建一个MIP网页
+### 3.新建一个MIP网页(todo)
 
 ```
 $ mip add index.html
@@ -34,7 +34,35 @@ $ mip add index.html mip-img mip-video
 
 ```
 
-将载入`mip-img`和`mip-video`两个组件，在这里继续gitbush here 输入以下命令
+将载入`mip-img`和`mip-video`两个组件
+
+### 4.编写mip网页代码
+
+在编写mip代码的时候需要注意符合mip网页规范，否则通不过mip校验程序，mip校验规则地址：
+
+https://www.mipengine.org/doc/2-tech/2-validate-mip.html
+
+### 5.校验MIP网页 
+
+```
+$ mip validate index.html
+```
+
+出现`ERROR`的条目通不过mip校验，需要进行修改。
+
+![validate](https://raw.githubusercontent.com/mipengine/mip-cli/gh-pages/example/mip-validate.png)
+
+![validate](./img/12_validate.jpg)
+
+
+
+
+
+
+
+
+
+在这里继续gitbush here 输入以下命令
 
 ` mip server`  
 
