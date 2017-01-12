@@ -59,7 +59,7 @@ $ mip validate index.html
 ![validate](./img/12_validate.jpg)  
 
 
-**注意**
+**注意**  
 mip页面应该为`utf-8`编码，其他编码格式通不过校验，如果需要使用其他编码格式，可以使用线上校验器粘贴代码进行校验，  
 
 线上校验器地址：
