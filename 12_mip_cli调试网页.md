@@ -20,21 +20,21 @@ $ mip init
 
 ![mip.config](./img/12_mipconfig.jpg)
 
-### 3.新建一个MIP网页(todo)
+### 3.新建一个MIP网页
 
+在git中输入如下命令：
 ```
 $ mip add index.html
 ```
+![addindex](./img/12_addindex.jpg)
+
+成功添加后，本地文件夹中会出现index.html 文件
+
 ![index.html](./img/12_indexhtml.jpg)  
 
-可以在新建网页的时候可以添加需要载入的mip组件，例如：
+打开index.html 文件会发现，系统已经自动生成一个基础的MIP页面  
 
-```
-$ mip add index.html mip-img mip-video
-
-```
-
-将载入`mip-img`和`mip-video`两个组件
+![index](./img/12_index.jpg)
 
 ### 4.编写mip网页代码
 
@@ -50,21 +50,35 @@ $ mip validate index.html
 
 出现`ERROR`的条目通不过mip校验，需要进行修改。
 
+例如：
 
-![validate](./img/12_validate.jpg)
-
-
-
+![validate](./img/12_validate.jpg)  
 
 
+**注意**
+mip页面应该为`utf-8`编码，其他编码格式通不过校验，如果需要使用其他编码格式，可以使用线上校验器粘贴代码进行校验，  
+
+线上校验器地址：
+https://www.mipengine.org/validator/validate  
+
+
+### 6.调试MIP网页
+
+进入到mip项目目录，启动`mip server`，然后访问`http://127.0.01:8000`进入调试页面。
+
+```
+$ mip server
+```
+
+![Alt text](./img/12_mipserver.jpg)  
+
+**注意**
+
+`mip server`默认监听`8000`和`35730`端口，如果有端口冲突可以在`mip.config`中修改启动端口。
+
+也可以使用`mip server -f`命令强制关闭当前占用端口的node进程(windows下无效)。
 
 
 
-
-在这里继续gitbush here 输入以下命令
-
-` mip server`  
-
-![Alt text](./img/12_mipserver.jpg)
 
 
