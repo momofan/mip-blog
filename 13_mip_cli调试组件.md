@@ -25,7 +25,7 @@ $ cd mip-extensions
 $ mip server
 
 ```
-![mipserver](./12_mipserver.jpg)  
+![mipserver](./img/12_mipserver.jpg)  
 
 然后访问`http://127.0.01:8000`进入调试页面。  
 
