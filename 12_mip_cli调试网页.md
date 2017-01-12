@@ -18,6 +18,8 @@ $ mip init
 
 ```
 
+![mipinit](./img/mipinit.jpg)  
+
 此时会创建`mip.config`文件，  
 
 ![mip.config](./img/12_mipconfig.jpg)
