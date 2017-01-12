@@ -31,10 +31,10 @@ $ mip add index.html mip-img mip-video
 
 ```
 
-将载入`mip-img`和`mip-video`两个组件
+将载入`mip-img`和`mip-video`两个组件，在这里继续gitbush here 输入以下命令
 
-在这里继续gitbush here 输入以下命令
 ` mip server`  
+
 ![Alt text](./img/12_mipserver.jpg)
 
 
