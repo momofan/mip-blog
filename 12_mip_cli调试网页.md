@@ -40,7 +40,7 @@ $ mip add index.html
 
 ![index](https://github.com/mipengine/mip-blog/blob/master/img/12_index.jpg)  
 
-在新建网页的时候可以添加需要载入的mip组件，例如：
+在新建网页的时候可以添加需要载入的mip组件脚本，例如：
 
 ```
 $ mip add index.html mip-share
@@ -51,7 +51,7 @@ $ mip add index.html mip-share
 将在`index.html`中载入`mip-share`组件的脚本 
 
 
-![sharejs](https://github.com/mipengine/mip-blog/blob/master/img/12_sharejs.jpg)     
+![sharejs](https://github.com/mipengine/mip-blog/blob/master/img/12_sharejs.jpg)       
 
 
 ## 4.编写mip网页代码
