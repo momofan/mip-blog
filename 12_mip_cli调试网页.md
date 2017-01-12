@@ -50,8 +50,6 @@ $ mip validate index.html
 
 出现`ERROR`的条目通不过mip校验，需要进行修改。
 
-![validate](https://raw.githubusercontent.com/mipengine/mip-cli/gh-pages/example/mip-validate.png)
-
 
 ![validate](./img/12_validate.jpg)
 
