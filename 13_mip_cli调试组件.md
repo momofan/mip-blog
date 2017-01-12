@@ -7,19 +7,19 @@
 
 ## 调试mip-extensions仓库中的组件
 
-### 1.`git clone`最新的mip-extensions仓库到本地，然后启动`mip server`
+### 1.git clone最新的mip-extensions仓库到本地，然后启动`mip server`  
 
 ```
 $ git clone https://github.com/mipengine/mip-extensions.git
 
 ```  
-![git clone](./img/13_gitclone.ipg)
+![git clone](./img/13_gitclone.jpg)   
 
 ``` 
-$ cd mip-extensions
+$ cd mip-extensions  
 
 ```
-![cdextensions](./img/13_cdextensions)  
+![cdextensions](./img/13_cdextensions.jpg)    
 
 ```
 $ mip server
