@@ -98,3 +98,19 @@ mip-demo.html代码如下:
 2.启动mip server调试器，访问`mip-demo.html`页面可以看到，已经把项目中的`mip-demo`引入到页面了
 
 ![mip-demo-project](https://raw.githubusercontent.com/mipengine/mip-cli/gh-pages/example/mip-demo-project.png)
+
+
+
+
+
+进入到该目录下，输入这行命令 克隆一个mip-extensions的版本库：
+
+`$ git clone  https://github.com/mipengine/mip-extensions.git`
+
+出现如下代表克隆完成
+
+![Alt text](./img/12_gitclone.jpg)
+
+这时你会发现之前创建的文件夹里多了这个文件夹
+
+![Alt text](./img/12_mip-extensions.jpg)

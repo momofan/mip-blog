@@ -1,25 +1,47 @@
 #调试MIP网页
 
-首先创建一个本地开发组件用的文件夹，存储位置自选，建议存储空间足够大，这时我们已经安装好了git，右键点击此文件夹弹出菜单 我们选择
-![Alt text](./img/12_gitbash.png)
+1. 先创建一个本地开发组件用的文件夹，存储位置自选，建议存储空间足够大，这时我们已经安装好了git，右键点击此文件夹弹出菜单 我们选择
+![Alt text](./img/12_gitbash.jpg)
 
-输入这行命令 克隆一个mip-extensions的版本库
+若右键菜单无此命令可以使用cd命令进入到目录中  
 
-`$ git clone  https://github.com/mipengine/mip-extensions.git`
+```
+cd mip-project
+```
 
-出现如下代表克隆完成
+2. 我们在当前根目录下进行初始化mip 配置：  
 
-![Alt text](./img/12_gitclone.jpg)
+```
+$ mip init
 
-这时你会发现之前创建的文件夹里多了这个文件夹
+```
 
-![Alt text](./img/12_mip-extensions.jpg)
+会创建`mip.config`文件，
+![mip.config](./img/12_mipconfig.jpg)
 
-接下来我们在当前根目录下进行初始化mip 配置：
+3. 新建一个MIP网页
 
-`$ mip init`
+```
+$ mip add index.html
+```
 
-会创建mip.config文件，相关配置如下：
+可以在新建网页的时候可以添加需要载入的mip组件，例如：
+
+```
+$ mip add index.html mip-img mip-video
+
+```
+
+将载入`mip-img`和`mip-video`两个组件
+
+
+
+
+
+
+
+
+
 在这里继续gitbush here 输入以下命令
 ` mip server`
 ![Alt text](./img/12_mipserver.jpg)
