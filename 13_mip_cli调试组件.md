@@ -1,5 +1,5 @@
 
-使用mip-cli工具可以进行mip组件调试，包括2种方式：
+#### 使用mip-cli工具可以进行mip组件调试，包括2种方式：
 
 1. 调试mip-extensions仓库中的组件
 2. 调试本地编写的mip组件
@@ -7,7 +7,7 @@
 
 ## 调试mip-extensions仓库中的组件
 
-### 1.git clone最新的mip-extensions仓库到本地，然后启动`mip server`  
+#### 1.git clone最新的mip-extensions仓库到本地，然后启动`mip server`  
 
 ```
 $ git clone https://github.com/mipengine/mip-extensions.git
@@ -25,8 +25,11 @@ $ cd mip-extensions
 $ mip server
 
 ```
+![mipserver](./12_mipserver.jpg)  
 
-### 2.创建mip组件
+然后访问`http://127.0.01:8000`进入调试页面。  
+
+#### 2.创建mip组件
 
 在`mip-extensions`目录中创建组件：
 
@@ -39,13 +42,13 @@ $ mip addelement mip-demo
 **注意**
 `README.md`文件中必须包含组件示例代码，`mip server`不会自动生成组件使用代码。
 
-### 3.打开调试网页`http://127.0.0.1:8000/`会列出当前仓库中的组件，点击进入`mip-demo`组件预览。
+#### 3.打开调试网页`http://127.0.0.1:8000/`会列出当前仓库中的组件，点击进入`mip-demo`组件预览。
 
 ![mip-extensions-list](https://raw.githubusercontent.com/mipengine/mip-cli/gh-pages/example/mip-extensions-list.png)
 
 在`mip-extensions`中修改组件代码保存后，`mip server`会自动刷新预览页面。
 
-### 4.组件提交到github仓库时需要进行校验，使用如下命令校验：
+#### 4.组件提交到github仓库时需要进行校验，使用如下命令校验：
 
 ```
 $ mip validateelement mip-demo
@@ -55,7 +58,7 @@ $ mip validateelement mip-demo
 
 组件通过校验之后，提交到仓库.
 
-### 5.需要调试组件在mip网页中的引用情况，参考`调试项目中的mip组件`
+#### 5.需要调试组件在mip网页中的引用情况，参考`调试项目中的mip组件`
 
 
 ## 调试项目中的mip组件
