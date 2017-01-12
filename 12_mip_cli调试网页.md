@@ -52,6 +52,7 @@ $ mip validate index.html
 
 ![validate](https://raw.githubusercontent.com/mipengine/mip-cli/gh-pages/example/mip-validate.png)
 
+
 ![validate](./img/12_validate.jpg)
 
 
