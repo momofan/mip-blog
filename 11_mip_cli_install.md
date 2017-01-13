@@ -66,13 +66,13 @@ npm i -g mip-extension-optimizer
 ## 4. 创建开发文件结构
 
 
-#### git clone最新的mip-extensions仓库到本地，然后启动`mip server`  
+#### 1) 创建一个开发用的文件夹，git clone最新的mip-extensions仓库到本地
 
 ```
 $ git clone https://github.com/mipengine/mip-extensions.git
-$ cd mip-extensions  
-$ mip server
 ```
+建议文件目录结构如下图：
+
 
 ![mip-extensions](https://github.com/mipengine/mip-blog/blob/master/img/13_mipserver.jpg)   
 
