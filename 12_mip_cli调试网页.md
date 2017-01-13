@@ -1,9 +1,13 @@
 # 调试MIP网页
 
-## 1.准备工作
-建议按照此图新建文件，页面结构如下：
+- [初始化mip配置](#no1)    
+- [新建一个MIP网页](#no2)    
+- [编写mip网页代码](#no3)    
+- [校验MIP网页](#no4)    
+- [调试MIP网页](#no5)  
 
-## 2.初始化mip配置
+<div id="no1">   </div>
+## 1.初始化mip配置
 我们在当前根目录下进行初始化mip 配置：  
 
 ```
@@ -17,7 +21,9 @@ $ mip init
 
 ![mip.config](https://github.com/mipengine/mip-blog/blob/master/img/12_mipconfig.jpg)
 
-## 3.新建一个MIP网页
+<div id="no2">   </div>  
+
+## 2.新建一个MIP网页
 
 在git中输入如下命令：
 ```
@@ -46,14 +52,17 @@ $ mip add index.html mip-share
 
 ![sharejs](https://github.com/mipengine/mip-blog/blob/master/img/12_sharejs.jpg)       
 
+<div id="no3">   </div>  
 
-## 4.编写mip网页代码
+## 3.编写mip网页代码
 
 在编写mip代码的时候需要注意符合mip网页规范，否则通不过mip校验程序，mip校验规则地址：
 
 https://www.mipengine.org/doc/2-tech/2-validate-mip.html
 
-## 5.校验MIP网页 
+<div id="no4">   </div>
+
+## 4.校验MIP网页 
 
 ```
 $ mip validate index.html
@@ -72,8 +81,9 @@ mip页面应该为`utf-8`编码，其他编码格式通不过校验，如果需�
 线上校验器地址：
 https://www.mipengine.org/validator/validate  
 
+<div id="no5">   </div>  
 
-## 6.调试MIP网页
+## 5.调试MIP网页
 
 进入到mip项目目录，启动`mip server`，然后访问`http://127.0.01:8000`进入调试页面。
 

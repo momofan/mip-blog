@@ -67,7 +67,7 @@ npm i -g mip-extension-optimizer
 ## 4. 创建开发文件结构
 
 
-#### 1) 创建一个开发用的文件夹，git clone最新的mip-extensions仓库到本地
+ 创建一个开发用的文件夹`mip-project`，git clone最新的mip-extensions仓库到本地
 
 ```
 $ git clone https://github.com/mipengine/mip-extensions.git
@@ -76,7 +76,7 @@ $ git clone https://github.com/mipengine/mip-extensions.git
 
 ![11_tree](https://github.com/mipengine/mip-blog/blob/master/img/11_tree.jpg)  
 
-  
+
 
 
 
