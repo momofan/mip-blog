@@ -49,11 +49,12 @@ $ mip addelement mip-demo
 
 #### 3.打开调试网页`http://127.0.0.1:8000/`会列出当前仓库中的组件，点击进入`mip-demo`组件预览。 
 
-访问`http://127.0.01:8000`进入调试页面。 
+访问`http://127.0.01:8000`进入调试页面。   
 
-![extension-list](./img/13_extension-list.jpg)      
+![extension-list](./img/13_extension-list.jpg)       
 
-在`mip-extensions`中修改组件代码保存后，`mip server`会自动刷新预览页面。
+进入`mip-demo`组件中进行开发，代码保存后，`mip server`会自动刷新预览页面。  
+
 
 #### 4.组件提交到github仓库时需要进行校验，使用如下命令校验：
 
@@ -121,6 +122,8 @@ mip-demo.html代码如下:
 2.启动mip server调试器，访问`mip-demo.html`页面可以看到，已经把项目中的`mip-demo`引入到页面了
 
 ![mipdemojs](./img/13_mipdemojs.jpg)
+
+
 
 
 
