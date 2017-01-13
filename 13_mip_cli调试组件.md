@@ -52,10 +52,9 @@ $ mip validateelement mip-demo
 在项目中创建新的mip组件，想要和mip页面一起调试，可以设置`mip.config`来实现。
 
 ## 下面是一个示例   
-  
-### 开发一个点击按钮弹出文字的组件 `mip-alert`   
-   
-   功能： `mip-alert`组件想要实现点击按钮即弹出文字"我是一个组件！"  
+
+  开发一个点击按钮弹出文字的组件 `mip-alert`   
+  功能： `mip-alert`组件想要实现点击按钮即弹出文字"我是一个组件！"  
 
 #### 1. 在`mip-extensions`目录中创建组件：  
 
