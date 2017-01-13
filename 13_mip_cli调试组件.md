@@ -124,6 +124,73 @@ mip-demo.html代码如下:
 ![mipdemojs](./img/13_mipdemojs.jpg)
 
 
+## 下面是一个示例   
+  
+### 开发一个自动弹出窗口的组件 `mip-alert` 
+
+ 
+#### 1. 在`mip-extensions`目录中创建组件：  
+
+```
+$ mip addelement mip-alert    
+  
+```
+![addelement](./img/13_mipalert.jpg)    
+
+在`mip-extensions`文件夹中创建了`mip-alert`组件，  
+
+![mip-alert](./img/13_mipalertlist.jpg)    
+
+#### 在`mip-alert.js `文件中编写代码
+
+![13_mip-alert-js](./img/13_mip-alert-js.jpg)       
+
+
+可以开始编写`README.md`文件。  
+
+### 添加`mip-alert.html `文件并引入我们创建的`mip-alert `组件  
+
+```
+
+mip add mip-alert.html   
+
+
+```
+![13_mipalerthtml](./img/13_mipalerthtml.jpg)  
+
+#### 修改根目录下`mip.config`文件的字段`extensionsDir`为`./`    
+
+![13_mipconfig](,/img/13_mipconfig.jpg)    
+
+#### 在`mip-extensions`目录下启动`mip server`    
+
+![13_mip-server-last](./img/13_mip-server-last)       
+
+访问`http://127.0.01:8000`进入调试页面。找到`mip-alert`组件，进入`mip-alert.html`页面，   
+即能看到弹出窗口  
+
+![13_mipalertover](./img/13_mipalertover.img)   
+
+#### 4.组件提交到github仓库时需要进行校验，使用如下命令校验：
+
+```
+$ mip validateelement mip-demo
+```
+
+![mip-etensions-validate](./img/13_mipvalidate.jpg)
+
+组件通过校验之后，提交到仓库.  
+
+
+
+至此通过校验后，我们的`mip-alert`组件已经开发完成。   
+
+
+
+
+
+
+
 
 
 
