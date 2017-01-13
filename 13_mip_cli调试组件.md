@@ -164,12 +164,12 @@ mip add mip-alert.html
 
 #### 5. 在`mip-extensions`目录下启动`mip server`    
 
-![13_mip-server-last](./img/13_mip-server-last)       
+![13_mip-server-last](./img/13_mip-server-last.jpg)       
 
 访问`http://127.0.01:8000`进入调试页面。找到`mip-alert`组件，进入`mip-alert.html`页面，   
 即能看到弹出窗口  
 
-![13_mipalertover](./img/13_mipalertover.img)   
+![13_mipalertover](./img/13_mipalertover.jpg)   
 
 #### 6. 组件提交到github仓库时需要进行校验，使用如下命令校验：
 
