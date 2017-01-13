@@ -141,14 +141,14 @@ $ mip addelement mip-alert
 
 ![mip-alert](./img/13_mipalertlist.jpg)    
 
-#### 在`mip-alert.js `文件中编写代码
+#### 2. 在`mip-alert.js `文件中编写代码
 
 ![13_mip-alert-js](./img/13_mip-alert-js.jpg)       
 
 
 可以开始编写`README.md`文件。  
 
-### 添加`mip-alert.html `文件并引入我们创建的`mip-alert `组件  
+### 3. 添加`mip-alert.html `文件并引入我们创建的`mip-alert `组件  
 
 ```
 
@@ -158,11 +158,11 @@ mip add mip-alert.html
 ```
 ![13_mipalerthtml](./img/13_mipalerthtml.jpg)  
 
-#### 修改根目录下`mip.config`文件的字段`extensionsDir`为`./`    
+#### 4. 修改根目录下`mip.config`文件的字段`extensionsDir`为`./`    
 
 ![13_mipconfig](,/img/13_mipconfig.jpg)    
 
-#### 在`mip-extensions`目录下启动`mip server`    
+#### 5. 在`mip-extensions`目录下启动`mip server`    
 
 ![13_mip-server-last](./img/13_mip-server-last)       
 
@@ -171,15 +171,15 @@ mip add mip-alert.html
 
 ![13_mipalertover](./img/13_mipalertover.img)   
 
-#### 4.组件提交到github仓库时需要进行校验，使用如下命令校验：
+#### 6. 组件提交到github仓库时需要进行校验，使用如下命令校验：
 
 ```
 $ mip validateelement mip-demo
 ```
 
-![mip-etensions-validate](./img/13_mipvalidate.jpg)
 
-组件通过校验之后，提交到仓库.  
+
+组件通过校验之后，提交到仓库即可。  
 
 
 
