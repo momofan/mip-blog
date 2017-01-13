@@ -120,7 +120,7 @@ mip-demo.html代码如下:
 
 2.启动mip server调试器，访问`mip-demo.html`页面可以看到，已经把项目中的`mip-demo`引入到页面了
 
-![mip-demo-project](https://raw.githubusercontent.com/mipengine/mip-cli/gh-pages/example/mip-demo-project.png)
+![mipdemojs](./img/13_mipdemojs.jpg)
 
 
 
