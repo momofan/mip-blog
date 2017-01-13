@@ -1,29 +1,28 @@
-
+# 开发教程(三)  使用MIP-CLI工具调试组件
 #### 使用mip-cli工具可以进行mip组件调试，包括2种方式：
 
-1. 调试mip-extensions仓库中的组件
-2. 调试本地编写的mip组件
+1. [调试mip-extensions仓库中的组件](#tiaoshizujian)
+2. [调试本地编写的mip组件](#tiaoshi)
+3. [mip组件编译](#bianyi)
 
+<div id="tiaoshizujian">   </div>
 
-## 调试mip-extensions仓库中的组件
+## 调试mip-extensions仓库中的组件 
 
 #### 1.git clone最新的mip-extensions仓库到本地，然后启动`mip server`  
 
 ```
 $ git clone https://github.com/mipengine/mip-extensions.git
-
 ```  
 ![git clone](https://github.com/mipengine/mip-blog/blob/master/img/13_gitclone.jpg)   
 
 ``` 
 $ cd mip-extensions  
-
 ```
 ![cdextensions](https://github.com/mipengine/mip-blog/blob/master/img/13_cdextensions.jpg)    
 
 ```
 $ mip server
-
 ```
 ![mipserver](https://github.com/mipengine/mip-blog/blob/master/img/13_mipserver.jpg)  
 
@@ -66,9 +65,9 @@ $ mip validateelement mip-demo
 
 组件通过校验之后，提交到仓库.
 
-#### 5.需要调试组件在mip网页中的引用情况，参考`调试项目中的mip组件`
+#### 5.需要在mip页面中查看组件效果，或同时预览多个组件的修改，参考[调试项目中的mip组件](#tiaoshi)
 
-
+<div id="tiaoshi">   </div>
 ## 调试项目中的mip组件
 
 有时候在项目中创建了mip组件，想要和mip页面一起调试，可以设置`mip.config`来实现。
@@ -133,7 +132,6 @@ mip-demo.html代码如下:
 
 ```
 $ mip addelement mip-alert    
-  
 ```
 ![addelement](https://github.com/mipengine/mip-blog/blob/master/img/13_mipalert.jpg)    
 
@@ -148,13 +146,10 @@ $ mip addelement mip-alert
 
 可以开始编写`README.md`文件。  
 
-### 3. 添加`mip-alert.html `文件并引入我们创建的`mip-alert `组件  
+#### 3. 添加`mip-alert.html `文件并引入我们创建的`mip-alert `组件  
 
 ```
-
 mip add mip-alert.html   
-
-
 ```
 
 ![13_mipalerthtml](https://github.com/mipengine/mip-blog/blob/master/img/13_mipalerthtml.jpg)    

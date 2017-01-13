@@ -54,12 +54,13 @@ npm i -g mip-extension-optimizer
 
 ![Alt text](https://github.com/mipengine/mip-blog/blob/master/img/11_optimizer.jpg)
 
-至此，我们就成功安装了mip-cli工具。
+ 
 
 ## 安装过程中可能出现的问题
 
 <div id="question1">   </div>
-### node版本问题
+ 
+### 1. node版本问题  
 
  **nodejs 5.x, 6.x** 安装模块时，可能会报**node-gyp**相关错误，像这样
 
@@ -80,7 +81,7 @@ $ [sudo] npm install --unsafe-perm -g mip-cli
 
 <div id="question2"> </div>
 
-### 使用cnpm镜像安装  
+### 2. 使用cnpm镜像安装  
 
 如果npm安装模块出了问题，请尝试**npm**镜像**-cnpm**进行安装：
 
