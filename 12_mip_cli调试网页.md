@@ -1,13 +1,7 @@
 # 调试MIP网页
 
 ## 1.准备工作
-先创建一个本地开发组件用的文件夹，存储位置自选，建议存储空间足够大，这时我们已经安装好了git，可以使用cd命令进入到目录中：
-
-```
-cd mip
-
-```
-![cdmip](https://github.com/mipengine/mip-blog/blob/master/img/12_cdmip.jpg)  
+建议按照此图新建文件，页面结构如下：
 
 ## 2.初始化mip配置
 我们在当前根目录下进行初始化mip 配置：  

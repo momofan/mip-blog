@@ -1,6 +1,6 @@
-# MIP 开发工具安装步骤详解
+# 开发教程(一)  MIP-CLI工具安装与环境部署
 
-## 依赖安装
+## 1. 依赖安装
 
 MIP-CLI使用npm安装，依赖node环境：  
 
@@ -12,7 +12,7 @@ MIP-CLI开发组件需要git：
 - [git安装-windows](https://www.baidu.com/s?wd=windows%E4%B8%8B%E5%AE%89%E8%A3%85git&rsv_spt=1&rsv_iqid=0xd4abf74300005ce5&issp=1&f=8&rsv_bp=1&rsv_idx=2&ie=utf-8&rqlang=cn&tn=93912046_hao_pg&rsv_enter=1&oq=mac%E4%B8%8B%E5%AE%89%E8%A3%85nodejs&rsv_t=d110N%2Bj0kMrkYiNWUYjNtW9ux3ILb%2BI2AwypVDVonpP%2B%2Bvbxi01rUp55PQDNPlK0XGIVB83w&rsv_pq=c402cbb000009353&inputT=24514&rsv_sug3=58&rsv_sug1=67&rsv_sug7=100&bs=mac%E4%B8%8B%E5%AE%89%E8%A3%85nodejs)
 - [git安装-mac](https://www.baidu.com/s?wd=mac%E4%B8%8B%E5%AE%89%E8%A3%85git&rsv_spt=1&rsv_iqid=0xd4abf74300005ce5&issp=1&f=8&rsv_bp=1&rsv_idx=2&ie=utf-8&rqlang=cn&tn=93912046_hao_pg&rsv_enter=1&oq=windows%E4%B8%8B%E5%AE%89%E8%A3%85git&rsv_t=5eb6FU22Qo8IXaLHm6afHBRe%2F3ncNACCRxIOkR6QAP0EFBKXn4UWWypr7vvRhOmPjcdKnhWF&rsv_pq=fde61d5200009578&inputT=69859&rsv_sug3=65&rsv_sug1=72&rsv_sug7=100&bs=windows%E4%B8%8B%E5%AE%89%E8%A3%85git)
 
-## 安装MIP-CLI
+## 2. 安装MIP-CLI
 
 MIP-CLI：mip开发工具，用于MIP页面和组件的开发和校验。  
 
@@ -42,7 +42,7 @@ $ [sudo] npm install -g mip-cli
 
 
 
-## 安装 mip-extension-optimizer
+## 3. 安装 mip-extension-optimizer
 
 MIP-extension-optimizer: mip组件编译工具，用于将mip-extension中的特定组件源码编译成js文件。  
 
@@ -55,8 +55,14 @@ npm i -g mip-extension-optimizer
 ![Alt text](https://github.com/mipengine/mip-blog/blob/master/img/11_optimizer.jpg)
 
  
+## 4. 创建开发文件结构
 
-## 安装过程中可能出现的问题
+
+
+
+
+
+## 附：安装过程中可能出现的问题
 
 <div id="question1">   </div>
  
