@@ -1,8 +1,9 @@
 # 开发教程(一)  MIP-CLI工具安装与环境部署
 
 - [依赖安装](#no1)  
-- [安装MIP-CLI](#no2)    
-- [创建开发文件结构](#no3)  
+- [安装MIP-CLI](#no2)  
+- [安装 mip-extension-optimizer](#no3)  
+- [创建开发文件结构](#no4)  
 
 <div id="no1">  </div>
 ## 1. 依赖安装
@@ -73,8 +74,9 @@ $ git clone https://github.com/mipengine/mip-extensions.git
 ```
 建议文件目录结构如下图：
 
+![11_tree](https://github.com/mipengine/mip-blog/blob/master/img/11_tree.jpg)  
 
-![mip-extensions](https://github.com/mipengine/mip-blog/blob/master/img/13_mipserver.jpg)   
+  
 
 
 
