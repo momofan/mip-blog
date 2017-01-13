@@ -7,8 +7,10 @@
 - [调试MIP网页](#no5)  
 
 <div id="no1">   </div>
-## 1.初始化mip配置
-我们在当前根目录下进行初始化mip 配置：  
+
+## 1.初始化mip配置  
+
+我们`html`目录下进行初始化mip 配置：  
 
 ```
 $ mip init
@@ -85,20 +87,23 @@ https://www.mipengine.org/validator/validate
 
 ## 5.调试MIP网页
 
-进入到mip项目目录，启动`mip server`，然后访问`http://127.0.01:8000`进入调试页面。
+进入到html项目目录，启动`mip server`
 
 ```
 $ mip server
 ```
+![Alt text](https://github.com/mipengine/mip-blog/blob/master/img/12_mipserver.jpg) 
 
-![Alt text](https://github.com/mipengine/mip-blog/blob/master/img/12_mipserver.jpg)  
+访问`http://127.0.01:8000`进入调试页面:  
 
-**注意**：
+![12_mipserverlist](https://github.com/mipengine/mip-blog/blob/master/img/12_mipserverlist.jpg)  
 
-`mip server`默认监听`8000`和`35730`端口，如果有端口冲突可以在`mip.config`中修改启动端口。
+**注意**：  
 
-也可以使用`mip server -f`命令强制关闭当前占用端口的node进程(windows下无效)。
-
+`mip server`默认监听`8000`和`35730`端口，如果有端口冲突可以在`mip.config`中修改启动端口。  
+ 
+也可以使用`mip server -f`命令强制关闭当前占用端口的node进程(windows下无效)。  
+ 
 
 
 

@@ -76,7 +76,7 @@ $ git clone https://github.com/mipengine/mip-extensions.git
 
 ![11_tree](https://github.com/mipengine/mip-blog/blob/master/img/11_tree.jpg)  
 
-
+其中html文件夹用来存放我们后续开发的mip页面
 
 
 
