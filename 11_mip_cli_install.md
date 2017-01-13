@@ -1,5 +1,9 @@
 # 开发教程(一)  MIP-CLI工具安装与环境部署
 
+[1. 依赖安装](#no1)
+[2. 安装MIP-CLI]()
+[4. 创建开发文件结构]()
+<div id="no1">  </div>
 ## 1. 依赖安装
 
 MIP-CLI使用npm安装，依赖node环境：  
@@ -57,6 +61,16 @@ npm i -g mip-extension-optimizer
  
 ## 4. 创建开发文件结构
 
+
+#### git clone最新的mip-extensions仓库到本地，然后启动`mip server`  
+
+```
+$ git clone https://github.com/mipengine/mip-extensions.git
+$ cd mip-extensions  
+$ mip server
+```
+
+![mip-extensions](https://github.com/mipengine/mip-blog/blob/master/img/13_mipserver.jpg)   
 
 
 
