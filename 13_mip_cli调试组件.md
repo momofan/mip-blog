@@ -13,19 +13,19 @@
 $ git clone https://github.com/mipengine/mip-extensions.git
 
 ```  
-![git clone](./img/13_gitclone.jpg)   
+![git clone](https://github.com/mipengine/mip-blog/blob/master/img/13_gitclone.jpg)   
 
 ``` 
 $ cd mip-extensions  
 
 ```
-![cdextensions](./img/13_cdextensions.jpg)    
+![cdextensions](https://github.com/mipengine/mip-blog/blob/master/img/13_cdextensions.jpg)    
 
 ```
 $ mip server
 
 ```
-![mipserver](./img/13_mipserver.jpg)  
+![mipserver](https://github.com/mipengine/mip-blog/blob/master/img/13_mipserver.jpg)  
 
 
 #### 2.创建mip组件
@@ -35,11 +35,11 @@ $ mip server
 ```
 $ mip addelement mip-demo  
 ```
-![addelement](./img/13_addelement.jpg)  
+![addelement](https://github.com/mipengine/mip-blog/blob/master/img/13_addelement.jpg)  
 
 在`mip-extensions`文件夹中创建了`mip-demo`组件，
 
-![mip-demo](./img/13_mip-demo.jpg)  
+![mip-demo](https://github.com/mipengine/mip-blog/blob/master/img/13_mip-demo.jpg)  
 
 
 可以开始编写mip-demo组件代码以及`README.md`文件。
@@ -51,7 +51,7 @@ $ mip addelement mip-demo
 
 访问`http://127.0.01:8000`进入调试页面。   
 
-![extension-list](./img/13_extension-list.jpg)       
+![extension-list](https://github.com/mipengine/mip-blog/blob/master/img/13_extension-list.jpg)       
 
 进入`mip-demo`组件中进行开发，代码保存后，`mip server`会自动刷新预览页面。  
 
@@ -62,7 +62,7 @@ $ mip addelement mip-demo
 $ mip validateelement mip-demo
 ```
 
-![mip-etensions-validate](./img/13_mipvalidate.jpg)
+![mip-etensions-validate](https://github.com/mipengine/mip-blog/blob/master/img/13_mipvalidate.jpg)
 
 组件通过校验之后，提交到仓库.
 
@@ -75,7 +75,7 @@ $ mip validateelement mip-demo
 
 例如：项目结构如下`mip-demo`为mip组件，`mip-demo.html`为使用了`mip-demo`组件的页面。
 
-![ll](./img/13_ll.jpg)  
+![ll](https://github.com/mipengine/mip-blog/blob/master/img/13_ll.jpg)  
 
 
 mip-demo.html代码如下:
@@ -121,7 +121,7 @@ mip-demo.html代码如下:
 
 2.启动mip server调试器，访问`mip-demo.html`页面可以看到，已经把项目中的`mip-demo`引入到页面了
 
-![mipdemojs](./img/13_mipdemojs.jpg)
+![mipdemojs](https://github.com/mipengine/mip-blog/blob/master/img/13_mipdemojs.jpg)
 
 
 ## 下面是一个示例   
@@ -135,15 +135,15 @@ mip-demo.html代码如下:
 $ mip addelement mip-alert    
   
 ```
-![addelement](./img/13_mipalert.jpg)    
+![addelement](https://github.com/mipengine/mip-blog/blob/master/img/13_mipalert.jpg)    
 
 在`mip-extensions`文件夹中创建了`mip-alert`组件，  
 
-![mip-alert](./img/13_mipalertlist.jpg)    
+![mip-alert](https://github.com/mipengine/mip-blog/blob/master/img/13_mipalertlist.jpg)    
 
 #### 2. 在`mip-alert.js `文件中编写代码
 
-![13_mip-alert-js](./img/13_mip-alert-js.jpg)       
+![13_mip-alert-js](https://github.com/mipengine/mip-blog/blob/master/img/13_mip-alert-js.jpg)       
 
 
 可以开始编写`README.md`文件。  
@@ -157,21 +157,21 @@ mip add mip-alert.html
 
 ```
 
-![13_mipalerthtml](./img/13_mipalerthtml.jpg)    
+![13_mipalerthtml](https://github.com/mipengine/mip-blog/blob/master/img/13_mipalerthtml.jpg)    
 
 #### 4. 修改根目录下`mip.config`文件的字段`extensionsDir`为`./`    
 
      
-![mipconfig](./img/13_mip-config.jpg)  
+![mipconfig](https://github.com/mipengine/mip-blog/blob/master/img/13_mip-config.jpg)  
 
 #### 5. 在`mip-extensions`目录下启动`mip server`    
 
-![13_mip-server-last](./img/13_mip-server-last.jpg)       
+![13_mip-server-last](https://github.com/mipengine/mip-blog/blob/master/img/13_mip-server-last.jpg)       
 
 访问`http://127.0.01:8000`进入调试页面。找到`mip-alert`组件，进入`mip-alert.html`页面，   
 即能看到弹出窗口  
 
-![13_mipalertover](./img/13_mipalertover.jpg)   
+![13_mipalertover](https://github.com/mipengine/mip-blog/blob/master/img/13_mipalertover.jpg)   
 
 #### 6. 组件提交到github仓库时需要进行校验，使用如下命令校验：
 
