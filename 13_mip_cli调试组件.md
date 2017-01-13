@@ -156,11 +156,13 @@ mip add mip-alert.html
 
 
 ```
-![13_mipalerthtml](./img/13_mipalerthtml.jpg)  
+
+![13_mipalerthtml](./img/13_mipalerthtml.jpg)    
 
 #### 4. 修改根目录下`mip.config`文件的字段`extensionsDir`为`./`    
 
-![13_mipconfig](,/img/13_mip-config.jpg)    
+     
+![mipconfig](./img/13_mip-config.jpg)  
 
 #### 5. 在`mip-extensions`目录下启动`mip server`    
 
