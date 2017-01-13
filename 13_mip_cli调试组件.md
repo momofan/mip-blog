@@ -13,21 +13,13 @@
 
 ```
 $ git clone https://github.com/mipengine/mip-extensions.git
-```  
-![git clone](https://github.com/mipengine/mip-blog/blob/master/img/13_gitclone.jpg)   
-
-``` 
 $ cd mip-extensions  
-```
-![cdextensions](https://github.com/mipengine/mip-blog/blob/master/img/13_cdextensions.jpg)    
-
-```
 $ mip server
 ```
-![mipserver](https://github.com/mipengine/mip-blog/blob/master/img/13_mipserver.jpg)  
 
+![mip-extensions](https://github.com/mipengine/mip-blog/blob/master/img/13_mipserver.jpg)   
 
-#### 2.创建mip组件
+#### 2.创建MIP组件
 
 在`mip-extensions`目录中创建组件：
 
@@ -36,15 +28,11 @@ $ mip addelement mip-demo
 ```
 ![addelement](https://github.com/mipengine/mip-blog/blob/master/img/13_addelement.jpg)  
 
-在`mip-extensions`文件夹中创建了`mip-demo`组件，
-
-![mip-demo](https://github.com/mipengine/mip-blog/blob/master/img/13_mip-demo.jpg)  
-
-
+ 
 可以开始编写mip-demo组件代码以及`README.md`文件。
 
-**注意**
-`README.md`文件中必须包含组件示例代码，`mip server`不会自动生成组件使用代码。
+#### 3. 开发MIP组件
+
 
 #### 3.打开调试网页`http://127.0.0.1:8000/`会列出当前仓库中的组件，点击进入`mip-demo`组件预览。 
 
