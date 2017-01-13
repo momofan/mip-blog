@@ -1,4 +1,4 @@
-# 调试MIP网页
+# 开发教程(二)  调试MIP网页
 
 - [初始化mip配置](#no1)    
 - [新建一个MIP网页](#no2)    
@@ -10,11 +10,10 @@
 
 ## 1.初始化mip配置  
 
-我们`html`目录下进行初始化mip 配置：  
+我们在`html`目录下进行初始化mip 配置：  
 
 ```
 $ mip init
-
 ```
 
 ![mipinit](https://github.com/mipengine/mip-blog/blob/master/img/12_mipinit.jpg)  
@@ -41,7 +40,7 @@ $ mip add index.html
 
 ![index](https://github.com/mipengine/mip-blog/blob/master/img/12_index.jpg)  
 
-在新建网页的时候可以添加需要载入的mip组件脚本，例如：
+在新建网页的时候可以添加需要载入的mip组件js脚本，例如：
 
 ```
 $ mip add index.html mip-share
@@ -49,7 +48,7 @@ $ mip add index.html mip-share
 
 ![mipshare](https://github.com/mipengine/mip-blog/blob/master/img/12_mipshare.jpg)     
 
-将在`index.html`中载入`mip-share`组件的脚本 
+将在`index.html`中载入`mip-share`组件的js脚本 
 
 
 ![sharejs](https://github.com/mipengine/mip-blog/blob/master/img/12_sharejs.jpg)       

@@ -1,19 +1,17 @@
-# 开发教程(三)  使用MIP-CLI工具调试组件
+# 开发教程(三)  使用MIP-CLI工具调试组件  
 #### 使用mip-cli工具可以进行mip组件调试，包括2种方式：
 
-1. [调试mip-extensions仓库中的组件](#tiaoshizujian)
-2. [调试本地编写的mip组件](#tiaoshi)
-3. [mip组件编译](#bianyi)
+- [调试mip-extensions仓库中的组件](#no1)
+- [调试本地编写的mip组件](#no2)
+-  [mip组件编译](#no3)
 
-<div id="tiaoshizujian">   </div>
+<div id="no1">   </div>
 
 ## 调试mip-extensions仓库中的组件 
 
-#### 1.git clone最新的mip-extensions仓库到本地，然后启动`mip server`  
+#### 1.在`mip-extensions`目录下启动`mip server`  
 
 ```
-$ git clone https://github.com/mipengine/mip-extensions.git
-$ cd mip-extensions  
 $ mip server
 ```
 
@@ -53,9 +51,9 @@ $ mip validateelement mip-demo
 
 组件通过校验之后，提交到仓库.
 
-#### 5.需要在mip页面中查看组件效果，或同时预览多个组件的修改，参考[调试项目中的mip组件](#tiaoshi)
+#### 5.需要在mip页面中查看组件效果，或同时预览多个组件的修改，参考[调试项目中的mip组件](#no2)
 
-<div id="tiaoshi">   </div>
+<div id="no2">   </div>
 ## 调试项目中的mip组件
 
 有时候在项目中创建了mip组件，想要和mip页面一起调试，可以设置`mip.config`来实现。
