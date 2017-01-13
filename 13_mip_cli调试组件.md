@@ -61,7 +61,7 @@ $ mip addelement mip-demo
 $ mip validateelement mip-demo
 ```
 
-![mip-etensions-validate](./img/mipvalidate.jpg)
+![mip-etensions-validate](./img/13_mipvalidate.jpg)
 
 组件通过校验之后，提交到仓库.
 
