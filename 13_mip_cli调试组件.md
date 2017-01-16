@@ -80,7 +80,7 @@ $ mip addelement mip-alert
 mip add mip-alert.html
 ```
 
-
+![13_mipalerthtml](https://github.com/mipengine/mip-blog/blob/master/img/13_mipalerthtml.jpg)    
 
 #### 4. 修改根目录下`mip.config`文件的字段`extensionsDir`为`../extensions`    
 
