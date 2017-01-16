@@ -3,7 +3,7 @@
 
 - [调试mip-extensions仓库中的组件](#no1)
 - [调试本地自己编写的mip组件](#no2)
--  [mip组件编译](#no3)
+
 
 <div id="no1">   </div>
 
@@ -69,7 +69,7 @@ $ mip addelement mip-alert
 
 #### 2. 在`mip-alert.js `文件中编写代码并编写`README.md`文件以及在.less文件中添加样式
 
-mip-alert.js 文件中的代码：
+mip-alert.js 文件中的代码：  
 ![13_mip-alert-js](https://github.com/mipengine/mip-blog/blob/master/img/13_mip-alert-js.jpg)       
 
 
@@ -115,27 +115,6 @@ $ mip validateelement mip-demo
 
 
 
-
-
-**注意**
-
-所有组件调试时引入方式都按照线上地址就可以，`mip server`会自动进行页面注入。
-
-
-1.修改`mip.config`的字段`extensionsDir`为`./`，注意，是`./`不是`.`。
-
-```javascript
-    /**
-     * 本地mip组件调试目录，主要用于开发组件时进行本地调试，会自动将本地mip组件注入到当前访问的页面中去
-     *
-     * @type {string}
-     */
-    extensionsDir: './',
-```
-
-2.启动mip server调试器，访问`mip-demo.html`页面可以看到，已经把项目中的`mip-demo`引入到页面了
-
-![mipdemojs](https://github.com/mipengine/mip-blog/blob/master/img/13_mipdemojs.jpg)
 
 
 
