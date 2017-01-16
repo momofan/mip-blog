@@ -73,11 +73,10 @@ mip-alert.js 文件中的代码：
 ![13_mip-alert-js](https://github.com/mipengine/mip-blog/blob/master/img/13_mip-alert-js.jpg)       
 
 
-- `README.md`文件可参考 [mip-fixed/README.md](https://github.com/mipengine/mip-extensions/blob/master/mip-fixed/README.md)
-- `package.json`文件可参考[mip-fixed/README.md](https://github.com/mipengine/mip-extensions/blob/master/mip-fixed/package.json)
+- `README.md`文件可参考 [mip-fixed/README.md](https://github.com/mipengine/mip-extensions/blob/master/mip-fixed/README.md)  
+- `package.json`文件可参考[mip-fixed/README.md](https://github.com/mipengine/mip-extensions/blob/master/mip-fixed/package.json)  
 
-
-完成后我们可以在`mip-alert.less`文件中编写样式。  
+ 完成后我们可以在`mip-alert.less`文件中编写样式。  
 
 
 #### 3. 在`html`文件夹下添加`mip-alert.html`并引入我们创建的`mip-alert `组件及其脚本。
