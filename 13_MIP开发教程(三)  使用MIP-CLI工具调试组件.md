@@ -43,7 +43,7 @@ $ mip validateelement mip-demo
 
 组件通过校验之后，提交到仓库.
 
-#### 5.需要在mip页面中查看组件效果，或同时预览多个组件的修改，参考[调试项目中的mip组件](#no2)
+#### 4.需要在mip页面中查看组件效果，或同时预览多个组件的修改，参考[调试项目中的mip组件](#no2)
 
 <div id="no2">   </div> 
  
@@ -73,7 +73,10 @@ mip-alert.js 文件中的代码：
 ![13_mip-alert-js](https://github.com/mipengine/mip-blog/blob/master/img/13_mip-alert-js.jpg)       
 
 
-可以开始编写`README.md`文件。完成后我们可以在`mip-alert.less`文件中编写样式。
+- `README.md`文件可参考 [mip-fixed/README.md](https://github.com/mipengine/mip-extensions/blob/master/mip-fixed/README.md)
+- `package.json`文件可参考[mip-fixed/README.md](https://github.com/mipengine/mip-extensions/blob/master/mip-fixed/package.json)
+
+完成后我们可以在`mip-alert.less`文件中编写样式。
 
 
 #### 3. 在`html`文件夹下添加`mip-alert.html`并引入我们创建的`mip-alert `组件及其脚本。
