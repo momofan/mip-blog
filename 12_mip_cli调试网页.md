@@ -57,7 +57,7 @@ $ mip add index.html mip-share
 
 ## 3.编写mip网页代码
 
-在编写mip代码的时候需要注意符合mip网页规范，否则通不过mip校验程序，mip校验规则地址：
+MIP页面新手指南可参见[官网文档-新手指南](https://www.mipengine.org/doc/00-mip-101.html)。在编写mip代码的时候需要注意符合mip网页规范，否则通不过mip校验程序，mip校验规则地址：
 
 https://www.mipengine.org/doc/2-tech/2-validate-mip.html
 
@@ -103,7 +103,4 @@ $ mip server
  
 也可以使用`mip server -f`命令强制关闭当前占用端口的node进程(windows下无效)。  
  
-
-
-
 
