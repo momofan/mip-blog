@@ -87,7 +87,7 @@ $ git clone https://github.com/mipengine/mip-extensions.git
 - [MIP开发教程(二)  使用MIP-CLI工具调试MIP网页]()
 - [MIP开发教程(三)  使用MIP-CLI工具调试组件]()
 
- 1. 
+ 
 
 ## 附：安装过程中可能出现的问题
 
