@@ -47,7 +47,7 @@ $ mip validateelement mip-demo
 
 <div id="no2">   </div> 
  
-## 调试本地项目中的mip组件
+## 调试本地自己编写的mip组件
 
 在项目中创建新的mip组件，想要和mip页面一起调试，可以设置`mip.config`来实现。
 
@@ -67,22 +67,22 @@ $ mip addelement mip-alert
 
 ![mip-alert](https://github.com/mipengine/mip-blog/blob/master/img/13_mipalertlist.jpg)    
 
-#### 2. 在`mip-alert.js `文件中编写代码
+#### 2. 在`mip-alert.js `文件中编写代码并编写`README.md`文件
 
 ![13_mip-alert-js](https://github.com/mipengine/mip-blog/blob/master/img/13_mip-alert-js.jpg)       
 
 
 可以开始编写`README.md`文件。  
 
-#### 3. 添加`mip-alert.html `文件并引入我们创建的`mip-alert `组件  
-
+#### 3. 在`html`文件夹下添加`mip-alert.html`并引入我们创建的`mip-alert `组件及其脚本。
+ 
 ```
-mip add mip-alert.html   
+mip add mip-alert.html
 ```
 
-![13_mipalerthtml](https://github.com/mipengine/mip-blog/blob/master/img/13_mipalerthtml.jpg)    
 
-#### 4. 修改根目录下`mip.config`文件的字段`extensionsDir`为`./`    
+
+#### 4. 修改根目录下`mip.config`文件的字段`extensionsDir`为`../extensions`    
 
      
 ![mipconfig](https://github.com/mipengine/mip-blog/blob/master/img/13_mip-config.jpg)  
