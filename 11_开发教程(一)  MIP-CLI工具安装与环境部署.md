@@ -78,9 +78,10 @@ $ git clone https://github.com/mipengine/mip-extensions.git
 
 其中html文件夹用来存放我们后续开发的mip页面
 
+<hr>
+本系列共有三篇文章：  
 
-
-
+ 1. 
 
 ## 附：安装过程中可能出现的问题
 
