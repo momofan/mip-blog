@@ -67,12 +67,14 @@ $ mip addelement mip-alert
 
 ![mip-alert](https://github.com/mipengine/mip-blog/blob/master/img/13_mipalertlist.jpg)    
 
-#### 2. 在`mip-alert.js `文件中编写代码并编写`README.md`文件
+#### 2. 在`mip-alert.js `文件中编写代码并编写`README.md`文件以及在.less文件中添加样式
 
+mip-alert.js 文件中的代码：
 ![13_mip-alert-js](https://github.com/mipengine/mip-blog/blob/master/img/13_mip-alert-js.jpg)       
 
 
-可以开始编写`README.md`文件。  
+可以开始编写`README.md`文件。完成后我们可以在`mip-alert.less`文件中编写样式。
+
 
 #### 3. 在`html`文件夹下添加`mip-alert.html`并引入我们创建的`mip-alert `组件及其脚本。
  
@@ -87,12 +89,12 @@ mip add mip-alert.html
      
 ![mipconfig](https://github.com/mipengine/mip-blog/blob/master/img/13_mip-config.jpg)  
 
-#### 5. 在`mip-extensions`目录下启动`mip server`    
+#### 5. 在`html`目录下启动`mip server`    
 
 ![13_mip-server-last](https://github.com/mipengine/mip-blog/blob/master/img/13_mip-server-last.jpg)       
 
-访问`http://127.0.01:8000`进入调试页面。找到`mip-alert`组件，进入`mip-alert.html`页面，   
-即能看到弹出窗口  
+访问`http://127.0.01:8000`进入调试页面。进入`mip-alert.html`页面，   
+即能看到
 
 ![13_mipalertover](https://github.com/mipengine/mip-blog/blob/master/img/13_mipalertover.jpg)   
 
@@ -114,35 +116,6 @@ $ mip validateelement mip-demo
 
 
 
-例如：项目结构如下`mip-demo`为mip组件，`mip-demo.html`为使用了`mip-demo`组件的页面。
-
-![ll](https://github.com/mipengine/mip-blog/blob/master/img/13_ll.jpg)  
-
-
-mip-demo.html代码如下:
-
-```html
-<!DOCTYPE html>
-<html mip>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-    <title><!-- 标题 --></title>
-    <link rel="stylesheet" type="text/css" href="https://mipcache.bdstatic.com/static/v1/mip.css">
-    <link rel="canonical" href="对应的原页面地址">
-    <style mip-custom>
-    /* 自定义样式 */
-    </style>
-</head>
-<body>
-<!-- 正文 -->
-<mip-demo></mip-demo>
-<script src="https://mipcache.bdstatic.com/static/v1/mip.js"></script>
-<script src="https://mipcache.bdstatic.com/static/v1/mip-demo/mip-demo.js"></script>
-
-</body>
-</html>
-```
 
 **注意**
 
