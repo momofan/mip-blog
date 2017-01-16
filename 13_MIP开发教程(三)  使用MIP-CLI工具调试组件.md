@@ -1,4 +1,4 @@
-# 开发教程(三)  使用MIP-CLI工具调试组件  
+# MIP开发教程(三)  使用MIP-CLI工具调试组件  
 #### 使用mip-cli工具可以进行mip组件调试，包括2种方式：
 
 - [调试mip-extensions仓库中的组件](#no1)
