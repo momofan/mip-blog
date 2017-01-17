@@ -11,7 +11,7 @@
 
 ### 登录平台
 
-使用｀百度帐号｀登录组件平台，登录成功之后需要设置自己的个人信息，以便于组件上线之后通知组件所有人。
+使用`百度帐号`登录组件平台，登录成功之后需要设置自己的个人信息，以便于组件上线之后通知组件所有人。
 
 ![mip-platform-login](https://raw.githubusercontent.com/mipengine/mip-cli/gh-pages/example/mip-platform-login.png)
 

@@ -66,15 +66,15 @@ $ mip server
 ![extension-list](https://github.com/mipengine/mip-blog/blob/master/img/13_mip-server-list-alert.jpg)       
 
 进入`mip-alert`组件中   
-![13_mipalertover](https://github.com/mipengine/mip-blog/blob/master/img/13_mipalertover.jpg)       
+![13_mipalertover](https://github.com/mipengine/mip-blog/blob/master/img/13_mip-server-no-color.jpg)       
 
-如果不能预览页面[请点击这里](#no5)
+[页面不能预览如何解决？](#no5)
 
 <div id="no3">   </div>
 
 ## 三. 在MIP页中引用自己编写的MIP组件  
 #### 1.修改`mip.config`
- 进入`mip-project/html`文件夹下，如果没有`mip.config`文件则执行`mip init`命令创建此文件。如果已经存在，修改`mip.config`文件的字段`extensionsDir`为`../extensions`。    
+ 进入`mip-project/html`文件夹下，如果没有`mip.config`文件则执行`mip init`命令创建此文件。如果已经存在，修改`mip.config`文件的字段`extensionsDir`为`../mip-extensions`。    
 
 ![mipconfig](https://github.com/mipengine/mip-blog/blob/master/img/13_mip-config.jpg) 
 
@@ -89,11 +89,12 @@ mip add mip-alert.html mip-alert
 <mip-alert alert-text="我是alert的内容">点击触发alert</mip-alert>
 ```
 
-#### 2. 在`html`目录下启动`mip server`    
+#### 3. 在`html`目录下启动`mip server`    
 
 ![13_mip-server-last](https://github.com/mipengine/mip-blog/blob/master/img/13_mip-server-last.jpg)       
 
 访问`http://127.0.01:8000`进入调试页面。进入`mip-alert.html`页面，   
+![13_mipalertover](https://github.com/mipengine/mip-blog/blob/master/img/13_mipalertover.jpg)    
 
 
 
