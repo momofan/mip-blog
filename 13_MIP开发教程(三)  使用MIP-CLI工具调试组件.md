@@ -64,9 +64,9 @@ $ mip server
 ![extension-list](https://github.com/mipengine/mip-blog/blob/master/img/13_mip-server-list-alert.jpg)       
 
 进入`mip-alert`组件中   
-![13_mipalertover](https://github.com/mipengine/mip-blog/blob/master/img/13_mipalertover.jpg)     
+![13_mipalertover](https://github.com/mipengine/mip-blog/blob/master/img/13_mipalertover.jpg)       
 进行调试组件代码保存后，`mip server`会自动刷新预览页面。
-如果点击按钮未成功弹出窗口，[请点击这里](#no5)
+如果点击未成功弹出窗口，[请点击这里](#no5)
 
 <div id="no3">   </div>
 
@@ -76,12 +76,23 @@ $ mip server
 
 ![mipconfig](https://github.com/mipengine/mip-blog/blob/master/img/13_mip-config.jpg) 
 
+#### 2. 在`html`目录下创建`mip-alert.html`文件，并添加`mip-alert`组件
+
+```
+mip add mip-alert.html mip-alert  
+```
+在body中引入
+
+```
+<mip-alert alert-text="我是alert的内容">点击触发alert</mip-alert>
+```
+
 #### 2. 在`html`目录下启动`mip server`    
 
 ![13_mip-server-last](https://github.com/mipengine/mip-blog/blob/master/img/13_mip-server-last.jpg)       
 
 访问`http://127.0.01:8000`进入调试页面。进入`mip-alert.html`页面，   
-即能看到
+
 
 
 
@@ -103,9 +114,9 @@ $ mip validateelement mip-demo
 
 <div id="no5">   </div>
 
-# 附：
-1. 未成功弹出窗口
-    将
+# 附：常见问题解答
+1. 点击未成功弹出窗口如何解决？
+
 
 
 
