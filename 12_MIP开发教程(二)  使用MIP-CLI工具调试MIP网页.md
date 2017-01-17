@@ -1,3 +1,5 @@
+<div id="top">    </div> 
+
 # MIP开发教程(二)  使用MIP-CLI工具调试MIP网页
 
 - [初始化mip配置](#no1)    
@@ -100,6 +102,12 @@ $ mip server
 
 `mip server`默认监听`8000`和`35730`端口，如果有端口冲突可以在`mip.config`中修改启动端口。  
  
-也可以使用`mip server -f`命令强制关闭当前占用端口的node进程(windows下无效)。  
+也可以使用`mip server -f`命令强制关闭当前占用端口的node进程(windows下无效)。   
  
+<hr>
+本系列共有三篇文章：  
+
+- [MIP开发教程(一)  MIP-CLI工具安装与环境部署](https://github.com/mipengine/mip-blog/blob/master/11_MIP%E5%BC%80%E5%8F%91%E6%95%99%E7%A8%8B(%E4%B8%80)%20%20MIP-CLI%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85%E4%B8%8E%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2.md)
+- [MIP开发教程(二)  使用MIP-CLI工具调试MIP网页](#top)
+- [MIP开发教程(三)  使用MIP-CLI工具调试组件](https://github.com/mipengine/mip-blog/blob/master/13_MIP%E5%BC%80%E5%8F%91%E6%95%99%E7%A8%8B(%E4%B8%89)%20%20%E4%BD%BF%E7%94%A8MIP-CLI%E5%B7%A5%E5%85%B7%E8%B0%83%E8%AF%95%E7%BB%84%E4%BB%B6.md)
 

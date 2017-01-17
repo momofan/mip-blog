@@ -89,8 +89,8 @@ git clone (刚才复制的仓库地址，如：https://github.com/xxxxxxx/mip-ex
 本系列共有三篇文章：  
 
 - [MIP开发教程(一)  MIP-CLI工具安装与环境部署](#top)
-- [MIP开发教程(二)  使用MIP-CLI工具调试MIP网页]()
-- [MIP开发教程(三)  使用MIP-CLI工具调试组件]()
+- [MIP开发教程(二)  使用MIP-CLI工具调试MIP网页](https://github.com/mipengine/mip-blog/blob/master/12_MIP%E5%BC%80%E5%8F%91%E6%95%99%E7%A8%8B(%E4%BA%8C)%20%20%E4%BD%BF%E7%94%A8MIP-CLI%E5%B7%A5%E5%85%B7%E8%B0%83%E8%AF%95MIP%E7%BD%91%E9%A1%B5.md)
+- [MIP开发教程(三)  使用MIP-CLI工具调试组件](https://github.com/mipengine/mip-blog/blob/master/13_MIP%E5%BC%80%E5%8F%91%E6%95%99%E7%A8%8B(%E4%B8%89)%20%20%E4%BD%BF%E7%94%A8MIP-CLI%E5%B7%A5%E5%85%B7%E8%B0%83%E8%AF%95%E7%BB%84%E4%BB%B6.md)
 
  
 
