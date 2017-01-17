@@ -8,7 +8,7 @@
 
 <div id="no1">   </div>
 
-## 1.初始化mip配置  
+## 1. 初始化mip配置  
 
 我们在`html`目录下进行初始化mip 配置：  
 
@@ -24,7 +24,7 @@ $ mip init
 
 <div id="no2">   </div>  
 
-## 2.新建一个MIP网页
+## 2. 新建一个MIP网页
 
 在`mip-project/html`文件夹下输入如下命令：
 ```
@@ -54,20 +54,15 @@ $ mip add index.html mip-share
 
 <div id="no3">   </div>  
 
-## 3.编写mip网页代码
+## 3. 编写mip网页代码
 
-MIP页面新手指南可参见[官网文档-新手指南](https://www.mipengine.org/doc/00-mip-101.html)。在编写mip代码的时候需要注意符合mip网页规范，否则通不过mip校验程序，mip校验规则地址：
-
-https://www.mipengine.org/doc/2-tech/2-validate-mip.html
-
+MIP页面新手指南可参见[官网文档-新手指南](https://www.mipengine.org/doc/00-mip-101.html)。在编写mip代码的时候需要注意符合mip网页规范，否则通不过mip校验程序，mip校验规则地址：https://www.mipengine.org/doc/2-tech/2-validate-mip.html。
 <div id="no4">   </div>
 
-## 4.校验MIP网页 
-
+## 4. 校验MIP网页 
 ```
 $ mip validate index.html
 ```
-
 出现`ERROR`的条目通不过mip校验，需要进行修改。
 
 例如：
@@ -77,13 +72,11 @@ $ mip validate index.html
 
 **注意**： 
 mip页面应该为`utf-8`编码，其他编码格式通不过校验，如果需要使用其他编码格式，可以使用线上校验器粘贴代码进行校验，  
-
-线上校验器地址：
-https://www.mipengine.org/validator/validate  
+线上校验器地址： https://www.mipengine.org/validator/validate。  
 
 <div id="no5">   </div>  
 
-## 5.调试MIP网页
+## 5. 调试MIP网页
 
 进入到html项目目录，启动`mip server`
 

@@ -32,9 +32,7 @@ $ mip addelement mip-alert
  */
 define(function (require) {
     var customElement = require('customElement').create();
-    // 构造元素，只会运行一次
     customElement.prototype.build = function () {
-        // TODO
         var btn = document.createElement('button');
         btn.innerHTML = '点我';
         btn.setAttribute('id', 'btn');
@@ -71,7 +69,7 @@ $ mip server
 <div id="no3">   </div>
 
 ## 三. 在MIP页中引用自己编写的MIP组件  
-#### 1.修改`mip.config`
+#### 1. 修改`mip.config`
  进入`mip-project/html`文件夹下，如果没有`mip.config`文件则执行`mip init`命令创建此文件。如果已经存在，修改`mip.config`文件的字段`extensionsDir`为`../mip-extensions`。    
 
 ![mipconfig](https://github.com/mipengine/mip-blog/blob/master/img/13_mip-config.jpg) 
@@ -100,7 +98,7 @@ mip add mip-alert.html mip-alert
 
 <div id="no4">   </div>
 
-## 四.组件提交到github仓库时需要进行校验
+## 四. 组件提交到github仓库时需要进行校验
 
 使用如下命令校验： 
 ```

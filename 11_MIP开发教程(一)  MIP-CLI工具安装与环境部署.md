@@ -6,6 +6,7 @@
 - [创建开发文件结构](#no4)  
 
 <div id="no1">  </div>
+
 ## 1. 依赖安装
 
 MIP-CLI使用npm安装，依赖node环境：  
@@ -19,10 +20,10 @@ MIP-CLI开发组件需要git：
 - [git安装-mac](https://www.baidu.com/s?wd=mac%E4%B8%8B%E5%AE%89%E8%A3%85git&rsv_spt=1&rsv_iqid=0xd4abf74300005ce5&issp=1&f=8&rsv_bp=1&rsv_idx=2&ie=utf-8&rqlang=cn&tn=93912046_hao_pg&rsv_enter=1&oq=windows%E4%B8%8B%E5%AE%89%E8%A3%85git&rsv_t=5eb6FU22Qo8IXaLHm6afHBRe%2F3ncNACCRxIOkR6QAP0EFBKXn4UWWypr7vvRhOmPjcdKnhWF&rsv_pq=fde61d5200009578&inputT=69859&rsv_sug3=65&rsv_sug1=72&rsv_sug7=100&bs=windows%E4%B8%8B%E5%AE%89%E8%A3%85git)
 
 <div id="no2">  </div>  
+
 ## 2. 安装MIP-CLI
 
-MIP-CLI：mip开发工具，用于MIP页面和组件的开发和校验。  
-
+MIP-CLI：mip开发工具，用于MIP页面和组件的开发和校验。    
 依赖环境: **Node.js (>=4.x)**  
 输入`node -v` 查看node版本，如果版本为5.x，6.x，<a href="#question1">请点击这里</a>。
 
@@ -35,7 +36,7 @@ MIP-CLI：mip开发工具，用于MIP页面和组件的开发和校验。
 $ [sudo] npm install -g mip-cli
 ```
 
- 出现以下界面显示正在安装
+ 出现以下界面显示正在安装：
 
 
  ![Alt text](https://github.com/mipengine/mip-blog/blob/master/img/11_install.jpg)
@@ -52,7 +53,7 @@ $ [sudo] npm install -g mip-cli
 
 ## 3. 安装 mip-extension-optimizer
 
-MIP-extension-optimizer: mip组件编译工具，用于将mip-extension中的特定组件源码编译成js文件。  
+`MIP-extension-optimizer`: mip组件编译工具，用于将mip-extension中的特定组件源码编译成js文件。  
 
 ```
 npm i -g mip-extension-optimizer
@@ -66,13 +67,13 @@ npm i -g mip-extension-optimizer
 
 ## 4. 创建开发文件结构
 
-打开https://github.com/mipengine/mip-extensions, fork一份mip-extensions项目代码，       
+打开https://github.com/mipengine/mip-extensions， fork一份mip-extensions项目代码，       
 ![fork](https://github.com/mipengine/mip-blog/blob/master/img/11_fork1.jpg)  
 
-进入自己的mip-extension项目页，复制仓库地址， 
+进入自己的mip-extension项目页，复制仓库地址： 
 ![fork](https://github.com/mipengine/mip-blog/blob/master/img/11_fork.jpg)  
 
- 在本地创建一个开发用的文件夹`mip-project`，git clone mip-extensions仓库到`mip-project`文件夹下
+ 在本地创建一个开发用的文件夹`mip-project`，git clone mip-extensions仓库到`mip-project`文件夹下：
 ```
 git clone (刚才复制的仓库地址，如：https://github.com/xxxxxxx/mip-extensions.git)
 ```
@@ -81,7 +82,7 @@ git clone (刚才复制的仓库地址，如：https://github.com/xxxxxxx/mip-ex
 
 ![11_tree](https://github.com/mipengine/mip-blog/blob/master/img/11_tree.jpg)  
 
-其中html文件夹用来存放我们后续开发的mip页面
+其中html文件夹用来存放我们后续开发的mip页面。
 
 <hr>
 本系列共有三篇文章：  
@@ -98,7 +99,7 @@ git clone (刚才复制的仓库地址，如：https://github.com/xxxxxxx/mip-ex
  
 ### 1. node版本问题  
 
- **nodejs 5.x, 6.x** 安装模块时，可能会报**node-gyp**相关错误，像这样
+ **nodejs 5.x， 6.x** 安装模块时，可能会报**node-gyp**相关错误，像这样：
 
 
 
