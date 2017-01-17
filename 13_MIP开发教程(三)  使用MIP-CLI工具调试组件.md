@@ -1,5 +1,3 @@
-<div id="top">    </div> 
-
 # MIP开发教程(三)  使用MIP-CLI工具调试组件  
 * [一. 在mip-extensions仓库中创建新的组件](#no1)
 * [二. 预览调试组件](#no2) 
@@ -118,7 +116,7 @@ $ mip validateelement mip-demo
 
 - [MIP开发教程(一)  MIP-CLI工具安装与环境部署](https://github.com/mipengine/mip-blog/blob/master/11_MIP%E5%BC%80%E5%8F%91%E6%95%99%E7%A8%8B(%E4%B8%80)%20%20MIP-CLI%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85%E4%B8%8E%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2.md)
 - [MIP开发教程(二)  使用MIP-CLI工具调试MIP网页](https://github.com/mipengine/mip-blog/blob/master/12_MIP%E5%BC%80%E5%8F%91%E6%95%99%E7%A8%8B(%E4%BA%8C)%20%20%E4%BD%BF%E7%94%A8MIP-CLI%E5%B7%A5%E5%85%B7%E8%B0%83%E8%AF%95MIP%E7%BD%91%E9%A1%B5.md)
-- [MIP开发教程(三)  使用MIP-CLI工具调试组件](#top)
+- MIP开发教程(三)  使用MIP-CLI工具调试组件
 
 
 
