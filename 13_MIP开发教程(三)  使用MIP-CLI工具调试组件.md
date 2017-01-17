@@ -63,7 +63,10 @@ $ mip server
 
 ![extension-list](https://github.com/mipengine/mip-blog/blob/master/img/13_mip-server-list-alert.jpg)       
 
-进入`mip-alert`组件中进行调试组件代码保存后，`mip server`会自动刷新预览页面。    
+进入`mip-alert`组件中 
+![13_mipalertover](https://github.com/mipengine/mip-blog/blob/master/img/13_mipalertover.jpg)     
+进行调试组件代码保存后，`mip server`会自动刷新预览页面。
+如果点击按钮未成功弹出窗口，[请点击这里](#no5)
 
 <div id="no3">   </div>
 
@@ -80,7 +83,7 @@ $ mip server
 访问`http://127.0.01:8000`进入调试页面。进入`mip-alert.html`页面，   
 即能看到
 
-![13_mipalertover](https://github.com/mipengine/mip-blog/blob/master/img/13_mipalertover.jpg)   
+
 
 
 <div id="no4">   </div>
@@ -94,9 +97,15 @@ $ mip validateelement mip-demo
 
 ![mip-etensions-validate](https://github.com/mipengine/mip-blog/blob/master/img/13_mipvalidate.jpg)
 
-组件通过校验之后，提交到仓库.
+组件通过校验之后，提交到仓库,通过github提交到request，等待项目组审核。
 
+<hr/>
 
+<div id="no5">   </div>
+
+# 附：
+1. 未成功弹出窗口
+    将
 
 
 
