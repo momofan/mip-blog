@@ -68,5 +68,7 @@ https://mipcache.bdstatic.com/static/v1/{组件名}/{组件名}.js
 ### 1. MIP 页面如何使用cookie？
 MIP 页面暂时不支持cookie，所有的cookie会被清除，后期MIP项目组会提供cookie的统一解决方案。
 
+### 我的网站使用了302跳转, mip-cache会抓取302跳转后的页面么？
+会，但mip-cache只会根踪一次302跳转，抓取重定向后的页面。如果网站使用了多次302跳转，mip-cache会抓取失败，导致触发cache降级逻辑，在用户访问时直接打开mip页，不使用异步极速框架，有损用户体验。如有多次302的需求，请通过[邮件](mailto:mip-support@baidu.com)与MIP项目组联系。
 <br>
 谢谢阅读。如有补充，欢迎留言
