@@ -27,7 +27,7 @@ $ mip addelement mip-alert
 
 ```
 /**
- * @file mip-kkk 组件
+ * @file mip-alert 组件
  * @author Grace
  */
 define(function (require) {
@@ -63,11 +63,7 @@ $ mip server
 
 ![extension-list](https://github.com/mipengine/mip-blog/blob/master/img/13_mip-server-list-alert.jpg)       
 
-进入`mip-alert`组件中进行调试组件
-
-![13_mipalertover](https://github.com/mipengine/mip-blog/blob/master/img/13_mipalertover.jpg)  
-
-代码保存后，`mip server`会自动刷新预览页面。  
+进入`mip-alert`组件中进行调试组件代码保存后，`mip server`会自动刷新预览页面。    
 
 <div id="no3">   </div>
 
