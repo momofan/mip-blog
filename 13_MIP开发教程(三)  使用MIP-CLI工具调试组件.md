@@ -7,9 +7,54 @@
 
 <div id="no1">   </div>
 
-## 调试mip-extensions仓库中的组件 
+## 一. 在mip-extensions仓库中创建新的组件 
 
-#### 1.在`mip-extensions`目录下启动`mip server`  
+#### 1. 在`mip-extensions`目录中创建组件：  
+
+```
+$ mip addelement mip-alert    
+```
+![addelement](https://github.com/mipengine/mip-blog/blob/master/img/13_mipalert.jpg)    
+
+此时在`mip-extensions`文件夹中创建了`mip-alert`组件，  
+
+![mip-alert](https://github.com/mipengine/mip-blog/blob/master/img/13_mipalertlist.jpg)    
+
+#### 2. 在`mip-alert.js `文件中编写代码并编写`README.md`文件以及在.less文件中添加样式
+
+mip-alert.js 文件中的代码：  
+
+```
+/**
+ * @file mip-kkk 组件
+ * @author Grace
+ */
+define(function (require) {
+    var customElement = require('customElement').create();
+    // 构造元素，只会运行一次
+    customElement.prototype.build = function () {
+        // TODO
+        var btn = document.createElement('button');
+        btn.innerHTML = '点我';
+        btn.setAttribute('id', 'btn');
+        btn.onclick = function () {
+            alert('这是一个组件');
+        };
+        document.body.appendChild(btn);
+    };
+    return customElement;
+});
+```    
+
+
+- `README.md`文件可参考 [mip-fixed/README.md](https://github.com/mipengine/mip-extensions/blob/master/mip-fixed/README.md)  
+- `package.json`文件可参考[mip-fixed/README.md](https://github.com/mipengine/mip-extensions/blob/master/mip-fixed/package.json)  
+
+ 完成后我们可以在`mip-alert.less`文件中编写样式。  
+
+## 二. 调试mip-extensions仓库中的组件 
+
+ 在`mip-extensions`目录下启动`mip server`来预览组件
 
 ```
 $ mip server
@@ -55,29 +100,6 @@ $ mip validateelement mip-demo
 
   开发一个点击按钮弹出文字的组件 `mip-alert`   
   功能： `mip-alert`组件想要实现点击按钮即弹出文字"我是一个组件！"  
-
-#### 1. 在`mip-extensions`目录中创建组件：  
-
-```
-$ mip addelement mip-alert    
-```
-![addelement](https://github.com/mipengine/mip-blog/blob/master/img/13_mipalert.jpg)    
-
-此时在`mip-extensions`文件夹中创建了`mip-alert`组件，  
-
-![mip-alert](https://github.com/mipengine/mip-blog/blob/master/img/13_mipalertlist.jpg)    
-
-#### 2. 在`mip-alert.js `文件中编写代码并编写`README.md`文件以及在.less文件中添加样式
-
-mip-alert.js 文件中的代码：  
-![13_mip-alert-js](https://github.com/mipengine/mip-blog/blob/master/img/13_mip-alert-js.jpg)       
-
-
-- `README.md`文件可参考 [mip-fixed/README.md](https://github.com/mipengine/mip-extensions/blob/master/mip-fixed/README.md)  
-- `package.json`文件可参考[mip-fixed/README.md](https://github.com/mipengine/mip-extensions/blob/master/mip-fixed/package.json)  
-
- 完成后我们可以在`mip-alert.less`文件中编写样式。  
-
 
 #### 3. 在`html`文件夹下添加`mip-alert.html`并引入我们创建的`mip-alert `组件及其脚本。
  

@@ -26,17 +26,16 @@ $ mip init
 
 ## 2.新建一个MIP网页
 
-在git中输入如下命令：
+在`mip-project/html`文件夹下输入如下命令：
 ```
 $ mip add index.html
 ```
 ![addindex](https://github.com/mipengine/mip-blog/blob/master/img/12_addindex.jpg)
 
-成功添加后，本地文件夹中会出现index.html 文件
+成功添加后，本地文件夹中会出现index.html 文件，这就是一个基础的MIP页面 
 
 ![index.html](https://github.com/mipengine/mip-blog/blob/master/img/12_indexhtml.jpg)  
 
-打开index.html 文件会发现，系统已经自动生成一个基础的MIP页面  
 
 ![index](https://github.com/mipengine/mip-blog/blob/master/img/12_index.jpg)  
 
