@@ -63,7 +63,7 @@ $ mip server
 
 ![extension-list](https://github.com/mipengine/mip-blog/blob/master/img/13_mip-server-list-alert.jpg)       
 
-进入`mip-alert`组件中 
+进入`mip-alert`组件中   
 ![13_mipalertover](https://github.com/mipengine/mip-blog/blob/master/img/13_mipalertover.jpg)     
 进行调试组件代码保存后，`mip server`会自动刷新预览页面。
 如果点击按钮未成功弹出窗口，[请点击这里](#no5)
