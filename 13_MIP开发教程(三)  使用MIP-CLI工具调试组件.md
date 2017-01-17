@@ -1,8 +1,4 @@
 # MIP开发教程(三)  使用MIP-CLI工具调试组件  
-#### 使用mip-cli工具可以进行mip组件调试，包括2种方式：
-
-- [调试mip-extensions仓库中的组件](#no1)
-- [调试本地自己编写的mip组件](#no2)
 
 
 <div id="no1">   </div>
@@ -20,10 +16,10 @@ $ mip addelement mip-alert
 
 ![mip-alert](https://github.com/mipengine/mip-blog/blob/master/img/13_mipalertlist.jpg)    
 
-#### 2. 在`mip-alert.js `文件中编写代码并编写`README.md`文件以及在.less文件中添加样式
-
+#### 2. 开发组件
+在`mip-alert.js `文件中编写代码并编写`README.md`文件以及在.less文件中添加样式。  
 mip-alert.js 文件中的代码：  
-
+ 
 ```
 /**
  * @file mip-kkk 组件
@@ -46,15 +42,13 @@ define(function (require) {
 });
 ```    
 
-
-- `README.md`文件可参考 [mip-fixed/README.md](https://github.com/mipengine/mip-extensions/blob/master/mip-fixed/README.md)  
-- `package.json`文件可参考[mip-fixed/README.md](https://github.com/mipengine/mip-extensions/blob/master/mip-fixed/package.json)  
-
- 完成后我们可以在`mip-alert.less`文件中编写样式。  
+- `mip-alert.less`用于定义组件样式，可参考[mip-fixed/mip-fixed](https://github.com/mipengine/mip-extensions/blob/master/mip-fixed/mip-fixed.less)  
+- `README.md`用于说明组件用法，可参考 [mip-fixed/README.md](https://github.com/mipengine/mip-extensions/blob/master/mip-fixed/README.md)  
+- `package.json`用于记录组件版本及开发者信息，可参考[mip-fixed/package.json](https://github.com/mipengine/mip-extensions/blob/master/mip-fixed/package.json)  
+ 
 
 ## 二. 调试mip-extensions仓库中的组件 
-
- 在`mip-extensions`目录下启动`mip server`来预览组件
+在`mip-extensions`目录下启动`mip server`来预览组件，预览页面访问的是`README.md`文件中的示例。  
 
 ```
 $ mip server
@@ -62,17 +56,15 @@ $ mip server
 
 ![mip-extensions](https://github.com/mipengine/mip-blog/blob/master/img/13_mipserver.jpg)   
 
-
-
-#### 2.打开调试网页`http://127.0.0.1:8000/`会列出当前仓库中的组件，点击进入`mip-ad`组件预览。 
+#### 2.打开调试网页`http://127.0.0.1:8000/`会列出当前仓库中的组件，点击进入`mip-alert`组件预览。 
 
 访问`http://127.0.01:8000`进入调试页面。   
 
-![extension-list](https://github.com/mipengine/mip-blog/blob/master/img/13_extension-list.jpg)       
+![extension-list](https://github.com/mipengine/mip-blog/blob/master/img/13_mip-server-list-alert.jpg)       
 
-进入`mip-ad`组件中进行调试组件
+进入`mip-alert`组件中进行调试组件
 
-![13_mipad](https://github.com/mipengine/mip-blog/blob/master/img/13_mipad.jpg)  
+![13_mipalertover](https://github.com/mipengine/mip-blog/blob/master/img/13_mipalertover.jpg)  
 
 
 代码保存后，`mip server`会自动刷新预览页面。  
