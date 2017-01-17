@@ -1,5 +1,6 @@
 # MIP开发教程(三)  使用MIP-CLI工具调试组件  
-
+* [一. 在mip-extensions仓库中创建新的组件](#no1)
+* [二.预览调试组件](#no2)  
 
 <div id="no1">   </div>
 
@@ -17,9 +18,12 @@ $ mip addelement mip-alert
 ![mip-alert](https://github.com/mipengine/mip-blog/blob/master/img/13_mipalertlist.jpg)    
 
 #### 2. 开发组件
-在`mip-alert.js `文件中编写代码并编写`README.md`文件以及在.less文件中添加样式。  
-mip-alert.js 文件中的代码：  
- 
+  
+- `mip-alert.js`用于定义组件，可参考下方示例。    
+- `mip-alert.less`用于定义组件样式，可参考 [mip-fixed/mip-fixed](https://github.com/mipengine/mip-extensions/blob/master/mip-fixed/mip-fixed.less)。   
+- `README.md`用于说明组件用法，可参考 [mip-fixed/README.md](https://github.com/mipengine/mip-extensions/blob/master/mip-fixed/README.md)。   
+- `package.json`用于记录组件版本及开发者信息，可参考 [mip-fixed/package.json](https://github.com/mipengine/mip-extensions/blob/master/mip-fixed/package.json)。    
+
 ```
 /**
  * @file mip-kkk 组件
@@ -41,13 +45,9 @@ define(function (require) {
     return customElement;
 });
 ```    
+<div id="no2">   </div>
 
-- `mip-alert.less`用于定义组件样式，可参考[mip-fixed/mip-fixed](https://github.com/mipengine/mip-extensions/blob/master/mip-fixed/mip-fixed.less)  
-- `README.md`用于说明组件用法，可参考 [mip-fixed/README.md](https://github.com/mipengine/mip-extensions/blob/master/mip-fixed/README.md)  
-- `package.json`用于记录组件版本及开发者信息，可参考[mip-fixed/package.json](https://github.com/mipengine/mip-extensions/blob/master/mip-fixed/package.json)  
- 
-
-## 二. 调试mip-extensions仓库中的组件 
+## 二. 预览调试组件
 在`mip-extensions`目录下启动`mip server`来预览组件，预览页面访问的是`README.md`文件中的示例。  
 
 ```
@@ -66,25 +66,9 @@ $ mip server
 
 ![13_mipalertover](https://github.com/mipengine/mip-blog/blob/master/img/13_mipalertover.jpg)  
 
-
 代码保存后，`mip server`会自动刷新预览页面。  
 
-
-#### 3.组件提交到github仓库时需要进行校验，使用如下命令校验：
-
-```
-$ mip validateelement mip-demo
-```
-
-![mip-etensions-validate](https://github.com/mipengine/mip-blog/blob/master/img/13_mipvalidate.jpg)
-
-组件通过校验之后，提交到仓库.
-
-#### 4.需要在mip页面中查看组件效果，或同时预览多个组件的修改，参考[调试项目中的mip组件](#no2)
-
-<div id="no2">   </div> 
- 
-## 调试本地自己编写的mip组件
+## 三. 在MIP页中引用自己编写的MIP组件  
 
 在项目中创建新的mip组件，想要和mip页面一起调试，可以设置`mip.config`来实现。
 
@@ -130,6 +114,16 @@ $ mip validateelement mip-demo
 至此通过校验后，我们的`mip-alert`组件已经开发完成。   
 
 
+
+#### 3.组件提交到github仓库时需要进行校验，使用如下命令校验：
+
+```
+$ mip validateelement mip-demo
+```
+
+![mip-etensions-validate](https://github.com/mipengine/mip-blog/blob/master/img/13_mipvalidate.jpg)
+
+组件通过校验之后，提交到仓库.
 
 
 
