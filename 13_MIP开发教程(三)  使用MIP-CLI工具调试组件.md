@@ -65,14 +65,14 @@ $ mip server
 
 进入`mip-alert`组件中   
 ![13_mipalertover](https://github.com/mipengine/mip-blog/blob/master/img/13_mipalertover.jpg)       
-进行调试组件代码保存后，`mip server`会自动刷新预览页面。
-如果点击未成功弹出窗口，[请点击这里](#no5)
+
+如果不能预览页面[请点击这里](#no5)
 
 <div id="no3">   </div>
 
 ## 三. 在MIP页中引用自己编写的MIP组件  
-#### 1. 进入`mip-project/html`文件夹下，如果没有`mip.config`文件则执行`mip init`命令创建此文件。如果已经存在，
-修改`mip.config`文件的字段`extensionsDir`为`../extensions`。    
+#### 1.修改`mip.config`
+ 进入`mip-project/html`文件夹下，如果没有`mip.config`文件则执行`mip init`命令创建此文件。如果已经存在，修改`mip.config`文件的字段`extensionsDir`为`../extensions`。    
 
 ![mipconfig](https://github.com/mipengine/mip-blog/blob/master/img/13_mip-config.jpg) 
 
@@ -108,14 +108,15 @@ $ mip validateelement mip-demo
 
 ![mip-etensions-validate](https://github.com/mipengine/mip-blog/blob/master/img/13_mipvalidate.jpg)
 
-组件通过校验之后，提交到仓库,通过github提交到request，等待项目组审核。
+组件通过校验之后，提交到仓库，通过github提交 pull request，等待项目组审核。
 
-<hr/>
+
 
 <div id="no5">   </div>
 
-# 附：常见问题解答
-1. 点击未成功弹出窗口如何解决？
+## 附：常见问题解答
+1. 页面不能预览如何解决？  
+将`mip-extensions`文件夹下的 `mip.config`文件删除。
 
 
 
