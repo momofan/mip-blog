@@ -29,7 +29,7 @@ $ mip addelement mip-alert
 /**
  * @file mip-alert 组件
  * @author Grace
- */
+ */  
 define(function (require) {
     var customElement = require('customElement').create();
     customElement.prototype.build = function () {
