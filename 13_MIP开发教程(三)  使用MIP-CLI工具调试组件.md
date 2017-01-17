@@ -1,6 +1,7 @@
 # MIP开发教程(三)  使用MIP-CLI工具调试组件  
 * [一. 在mip-extensions仓库中创建新的组件](#no1)
-* [二.预览调试组件](#no2)  
+* [二.预览调试组件](#no2) 
+* [三. 在MIP页中引用自己编写的MIP组件 ](#no3) 
 
 <div id="no1">   </div>
 
@@ -48,7 +49,7 @@ define(function (require) {
 <div id="no2">   </div>
 
 ## 二. 预览调试组件
-在`mip-extensions`目录下启动`mip server`来预览组件，预览页面访问的是`README.md`文件中的示例。  
+#### 1. 在`mip-extensions`目录下启动`mip server`来预览组件，预览页面访问的是`README.md`文件中的示例。  
 
 ```
 $ mip server
@@ -56,7 +57,7 @@ $ mip server
 
 ![mip-extensions](https://github.com/mipengine/mip-blog/blob/master/img/13_mipserver.jpg)   
 
-#### 2.打开调试网页`http://127.0.0.1:8000/`会列出当前仓库中的组件，点击进入`mip-alert`组件预览。 
+#### 2. 打开调试网页`http://127.0.0.1:8000/`会列出当前仓库中的组件，点击进入`mip-alert`组件预览。 
 
 访问`http://127.0.01:8000`进入调试页面。   
 
@@ -68,9 +69,24 @@ $ mip server
 
 代码保存后，`mip server`会自动刷新预览页面。  
 
-## 三. 在MIP页中引用自己编写的MIP组件  
+<div id="no3">   </div>
 
-在项目中创建新的mip组件，想要和mip页面一起调试，可以设置`mip.config`来实现。
+## 三. 在MIP页中引用自己编写的MIP组件  
+#### 1. 进入`mip-project/html`文件夹下，如果没有`mip.config`文件则执行`mip init`命令创建此文件。如果已经存在，
+修改`mip.config`文件的字段`extensionsDir`为`../extensions`。    
+
+![mipconfig](https://github.com/mipengine/mip-blog/blob/master/img/13_mip-config.jpg) 
+
+#### 2. 在`html`目录下启动`mip server`    
+
+![13_mip-server-last](https://github.com/mipengine/mip-blog/blob/master/img/13_mip-server-last.jpg)       
+
+访问`http://127.0.01:8000`进入调试页面。进入`mip-alert.html`页面，   
+即能看到
+
+![13_mipalertover](https://github.com/mipengine/mip-blog/blob/master/img/13_mipalertover.jpg)   
+
+
 
 ## 下面是一个示例   
 
