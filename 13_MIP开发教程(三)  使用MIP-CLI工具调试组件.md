@@ -1,8 +1,8 @@
 # MIP开发教程(三)  使用MIP-CLI工具调试组件  
 * [一. 在mip-extensions仓库中创建新的组件](#no1)
 * [二.预览调试组件](#no2) 
-* [三. 在MIP页中引用自己编写的MIP组件 ](#no3) 
-
+* [三. 在MIP页中引用自己编写的MIP组件](#no3) 
+* [四.组件提交到github仓库时需要进行校验](#no4) 
 <div id="no1">   </div>
 
 ## 一. 在mip-extensions仓库中创建新的组件 
@@ -87,52 +87,11 @@ $ mip server
 ![13_mipalertover](https://github.com/mipengine/mip-blog/blob/master/img/13_mipalertover.jpg)   
 
 
+<div id="no4">   </div>
 
-## 下面是一个示例   
+## 四.组件提交到github仓库时需要进行校验
 
-  开发一个点击按钮弹出文字的组件 `mip-alert`   
-  功能： `mip-alert`组件想要实现点击按钮即弹出文字"我是一个组件！"  
-
-#### 3. 在`html`文件夹下添加`mip-alert.html`并引入我们创建的`mip-alert `组件及其脚本。
- 
-```
-mip add mip-alert.html
-```
-
-![13_mipalerthtml](https://github.com/mipengine/mip-blog/blob/master/img/13_mipalerthtml.jpg)    
-
-#### 4. 修改根目录下`mip.config`文件的字段`extensionsDir`为`../extensions`    
-
-     
-![mipconfig](https://github.com/mipengine/mip-blog/blob/master/img/13_mip-config.jpg)  
-
-#### 5. 在`html`目录下启动`mip server`    
-
-![13_mip-server-last](https://github.com/mipengine/mip-blog/blob/master/img/13_mip-server-last.jpg)       
-
-访问`http://127.0.01:8000`进入调试页面。进入`mip-alert.html`页面，   
-即能看到
-
-![13_mipalertover](https://github.com/mipengine/mip-blog/blob/master/img/13_mipalertover.jpg)   
-
-#### 6. 组件提交到github仓库时需要进行校验，使用如下命令校验：
-
-```
-$ mip validateelement mip-demo
-```
-
-
-
-组件通过校验之后，提交到仓库即可。  
-
-
-
-至此通过校验后，我们的`mip-alert`组件已经开发完成。   
-
-
-
-#### 3.组件提交到github仓库时需要进行校验，使用如下命令校验：
-
+使用如下命令校验： 
 ```
 $ mip validateelement mip-demo
 ```
