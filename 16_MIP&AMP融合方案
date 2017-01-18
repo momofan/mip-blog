@@ -1,0 +1,65 @@
+注：图中飘红区域在第一阶段均不涉及
+
+
+一、AMP整体生效步骤说明：
+1、站长开发AMP页面（基于amp工具集）
+2、站长从站长平台 amp 入口提交 url（*前期由 google 提供 url list*）、spider主动发现
+3、spider调度抓取并识别
+4、amp 页面数据进入 amp 内容池下游
+5、百度 amp cache 改写模块
+6、页面进入百度 amp cache
+7、生效到单条结果
+8、通过标记用百度amp页面方式打开结果
+9、amp结果实时校验模块进行校验、屏蔽、复活机制
+
+A. Overall description for AMP:
+1. Webmasters development AMP page (based on amp tool set)
+2. Webmasters submit AMP url, which privided by Google temporarily, into Baidu Webmaster Platform. Baidu Spider discover AMP url initiatively.
+3. Baidu Spider schedule crawl and identify AMP url.
+4. AMP page data then transfer into downstream of the AMP content pool 
+5. Baidu cache for AMP rewrite module
+6. the page into the Baidu amp cache
+7. effective to a single result
+8. Tag AMP URL, and open those who has AMP tag using Baidu AMP cache page.
+9. amp results will be verifyed, shielded and resurrected simoutaneously.
+
+具体工作list：
+
+1、内容改写（需要将 amp 的静态资源存储到百度 cdn 上，以供使用）：
+        amp js
+amp css
+amp 广告相关:广告 js/frame.html（动态生成，比较复杂，不在页面当中，存在 js 逻辑中，*需要确认是否有域名限制？*）
+amp 样式中默认图片
+Google font 资源
+    *对 google 的诉求：希望能够提供一个 amp 静态资源的包文件，能够实时更新*
+2、和搜索大环机制打通
+3、在线模块的屏蔽复活机制
+4、页面规则校验：
+spider 校验
+Cache 实时校验
+5、amp 页面的二跳问题解决 *希望 google 能提供一些站长的amp pattern*
+6、广告计费问题： *由于域名换成了百度cache域名，需和 google 的同学确认：包括大量第三方接入的广告*
+7、统计问题：*需和 google 的同学确认，域名切换后是否有影响，当然还有第三方的统计代码*
+8、cache 更新问题，*需要同步 amp cache 更新方案，打通 amp cache 更新接口同步到百度这边*
+
+工作阶段说明：
+
+第一阶段（2月16号 amp 页面在百度生效）
+1、实现对 amp 静态资源的全部 cdn 缓存
+2、实现 amp 页面的改写模块
+3、搜索大环机制：采用 google 提供的 amp url list，以默认信任的方式，替换原 h5 展现 amp 结果
+4、前端机制支持 amp 页面的标记并实现相应跳百度 amp cache 页逻辑
+5、广告&统计模块梳理和支持，使其功能正常，有风险，需和 google 同仁合作
+6、解决 amp 页面的二跳问题（非完美解决方案，可能有降级策略）
+
+第二阶段（17年2月下旬~5月）
+站长平台提供 amp 提交入口，并能给出数据反馈
+搜索大环打通，大环增加 amp 校验模块
+百度 amp cache 增加页面的 amp 实时校验模块
+在线模块的屏蔽复活机制
+完美解决二跳问题
+广告&统计功能完善和优化
+前端交互采用百度 superframe
+
+第三阶段（17年8月）
+cache 更新保持和 amp 接口同步
