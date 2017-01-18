@@ -2,6 +2,7 @@
 
 
 一、AMP整体生效步骤说明：
+
 1、站长开发AMP页面（基于amp工具集）
 2、站长从站长平台 amp 入口提交 url（*前期由 google 提供 url list*）、spider主动发现
 3、spider调度抓取并识别
@@ -13,22 +14,23 @@
 9、amp结果实时校验模块进行校验、屏蔽、复活机制
 
 A. Overall description for AMP:
+
 1. Webmasters development AMP page (based on amp tool set)
 2. Webmasters submit AMP url, which privided by Google temporarily, into Baidu Webmaster Platform. Baidu Spider discover AMP url initiatively.
 3. Baidu Spider schedule crawl and identify AMP url.
-4. AMP page data then transfer into downstream of the AMP content pool 
+4. AMP page data then transfer into downstream of the AMP content pool
 5. Baidu cache for AMP rewrite module
 6. the page into the Baidu amp cache
 7. effective to a single result
 8. Tag AMP URL, and open those who has AMP tag using Baidu AMP cache page.
 9. amp results will be verifyed, shielded and resurrected simoutaneously.
 
-具体工作list：
+二. 具体工作list：
 
 1、内容改写（需要将 amp 的静态资源存储到百度 cdn 上，以供使用）：
-        amp js
-amp css
-amp 广告相关:广告 js/frame.html（动态生成，比较复杂，不在页面当中，存在 js 逻辑中，*需要确认是否有域名限制？*）
+    amp js
+    amp css
+    amp 广告相关:广告 js/frame.html（动态生成，比较复杂，不在页面当中，存在 js 逻辑中，*需要确认是否有域名限制？*）
 amp 样式中默认图片
 Google font 资源
     *对 google 的诉求：希望能够提供一个 amp 静态资源的包文件，能够实时更新*
@@ -42,8 +44,26 @@ Cache 实时校验
 7、统计问题：*需和 google 的同学确认，域名切换后是否有影响，当然还有第三方的统计代码*
 8、cache 更新问题，*需要同步 amp cache 更新方案，打通 amp cache 更新接口同步到百度这边*
 
-工作阶段说明：
 
+Specific task list:
+1. Rewrite of the content (amp static resources will be saved to Baidu cdn):
+Amp js
+Amp css
+Ads related: advertising js / frame.html (dynamic generation, more complex, not in the pages, there js logic, * need to confirm whether there is a domain name restrictions?
+Amp; style
+Google Fonts
+* Google's appeal: I hope to provide a static resource package files, can be updated in real time *
+2. and open up the search ring mechanism
+3. the line module of the shield revived mechanism
+4. page rules check:
+Spider calibration
+Cache real-time verification
+5. amp pages of the two-hop problem solving * hope that Google can provide some owners of amp mode *
+6. advertising billing issues: * Baidu domain name into the cache because of the domain name and google students need to confirm: including a large number of third-party access to advertising *
+7. statistical issues: * and google students need to confirm that the impact of domain name switching, of course, there are third-party statistical code *
+8. the cache update problem, * need to synchronize amp cache update program, open the amp cache update interface synchronization to Baidu here *
+
+工作阶段说明：
 第一阶段（2月16号 amp 页面在百度生效）
 1、实现对 amp 静态资源的全部 cdn 缓存
 2、实现 amp 页面的改写模块
