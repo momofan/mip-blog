@@ -3,83 +3,105 @@
 
 一、AMP整体生效步骤说明：
 
-1、站长开发AMP页面（基于amp工具集）
-2、站长从站长平台 amp 入口提交 url（*前期由 google 提供 url list*）、spider主动发现
+1、站长开发AMP页面（基于AMP工具集）
+2、站长从站长平台 AMP 入口提交 URL（*前期由 Google 提供 URL list*）、spider主动发现
 3、spider调度抓取并识别
-4、amp 页面数据进入 amp 内容池下游
-5、百度 amp cache 改写模块
-6、页面进入百度 amp cache
+4、AMP 页面数据进入 AMP 内容池下游
+5、百度 AMP cache 改写模块
+6、页面进入百度 AMP cache
 7、生效到单条结果
-8、通过标记用百度amp页面方式打开结果
-9、amp结果实时校验模块进行校验、屏蔽、复活机制
+8、通过标记用百度AMP页面方式打开结果
+9、AMP结果实时校验模块进行校验、屏蔽、复活机制
 
-A. Overall description for AMP:
+I. Overall description for AMP:
 
-1. Webmasters development AMP page (based on amp tool set)
-2. Webmasters submit AMP url, which privided by Google temporarily, into Baidu Webmaster Platform. Baidu Spider discover AMP url initiatively.
-3. Baidu Spider schedule crawl and identify AMP url.
+1. Webmasters development AMP page (based on AMP tool set)
+2. Webmasters submit AMP URL, which privided by Google temporarily, into Baidu Webmaster Platform. Baidu Spider discover AMP URL initiatively.
+3. Baidu Spider schedule crawl and identify AMP URL.
 4. AMP page data then transfer into downstream of the AMP content pool
 5. Baidu cache for AMP rewrite module
-6. the page into the Baidu amp cache
+6. the page into the Baidu AMP cache
 7. effective to a single result
 8. Tag AMP URL, and open those who has AMP tag using Baidu AMP cache page.
-9. amp results will be verifyed, shielded and resurrected simoutaneously.
+9. AMP results will be verifyed, shielded and resurrected simoutaneously.
 
 二. 具体工作list：
 
-1、内容改写（需要将 amp 的静态资源存储到百度 cdn 上，以供使用）：
-    amp js
-    amp css
-    amp 广告相关:广告 js/frame.html（动态生成，比较复杂，不在页面当中，存在 js 逻辑中，*需要确认是否有域名限制？*）
-amp 样式中默认图片
-Google font 资源
-    *对 google 的诉求：希望能够提供一个 amp 静态资源的包文件，能够实时更新*
+1、内容改写（需要将 AMP 的静态资源存储到百度 cdn 上，以供使用）：
+    AMP Javascript
+    AMP CSS
+    AMP 广告相关:广告组件中涉及到AMP cache 相关的Javascript文件和frame.html等，需要深入去改写组件 Javascript 文件。*需要确认是否有域名限制，并罗列一下用到的静态文件*
+    AMP 样式中默认图片
+    Google font 资源
+    *对 Google 的诉求：希望能够提供一个 AMP 静态资源的包文件，能够实时更新*
 2、和搜索大环机制打通
 3、在线模块的屏蔽复活机制
 4、页面规则校验：
 spider 校验
 Cache 实时校验
-5、amp 页面的二跳问题解决 *希望 google 能提供一些站长的amp pattern*
-6、广告计费问题： *由于域名换成了百度cache域名，需和 google 的同学确认：包括大量第三方接入的广告*
-7、统计问题：*需和 google 的同学确认，域名切换后是否有影响，当然还有第三方的统计代码*
-8、cache 更新问题，*需要同步 amp cache 更新方案，打通 amp cache 更新接口同步到百度这边*
+5、AMP 页面的二跳问题解决 *希望 Google 能提供一些站长的AMP pattern*
+6、广告计费问题： *由于页面域名换成了百度cache的域名，需和Google的同学确认是否会对广告计费带来影响。也包括大量的已接入 AMP 的第三方广告商*
+7、统计问题：*需和 Google 的同学确认，域名切换后是否有影响，除了谷歌统计也包括第三方的统计代码*
+8、cache 更新问题，*需要同步 AMP cache 更新方案，站长更新 amp 的同时，百度这边的 cache 也同步更新了。 方案需要打通*
 
 
-Specific task list:
-1. Rewrite of the content (amp static resources will be saved to Baidu cdn):
-Amp js
-Amp css
-Ads related: advertising js / frame.html (dynamic generation, more complex, not in the pages, there js logic, * need to confirm whether there is a domain name restrictions?
-Amp; style
-Google Fonts
-* Google's appeal: I hope to provide a static resource package files, can be updated in real time *
-2. and open up the search ring mechanism
-3. the line module of the shield revived mechanism
-4. page rules check:
-Spider calibration
-Cache real-time verification
-5. amp pages of the two-hop problem solving * hope that Google can provide some owners of amp mode *
-6. advertising billing issues: * Baidu domain name into the cache because of the domain name and google students need to confirm: including a large number of third-party access to advertising *
-7. statistical issues: * and google students need to confirm that the impact of domain name switching, of course, there are third-party statistical code *
-8. the cache update problem, * need to synchronize amp cache update program, open the amp cache update interface synchronization to Baidu here *
+II. Specific tasks:
+1. Rewrite of the content (AMP static resources will be saved to Baidu cdn):
+    - Amp Javascript
+    - Amp CSS
+    - Ads resources: advertising related Javascript files and frame.html need to be modified (need to confirm whether there is a domain name restrictions)
+    - Images in Amp stylesheet
+    - Google Fonts
+    - * Baidu's appeal: We hope Google providing a package of static resources, which can be updated in real time *
+2. Connect with Baidu Search Cycle.
+3. Shielding and Resurrection mechanism of realtime modules.
+4. AMP HTML Validator:
+    - Spider validation
+    - Real-time validation in Baidu Cache
+5. Link and redirection of AMP page problem need to be solved * hope that Google can provide some pattern of AMP pages *
+6. Advertising statistical issues: * All the AMP pages will be under Baidu domain, we need to make sure that change of domain won't affect statistics and billing, both A4A and third-party ad venders*
+7. Statistical issue: *need to confirm whether change of domain has inpact on Google analysis, as will as third-party analysis*
+8. Cache update issue: * need to synchronize AMP cache update method, when updating AMP cache,  Baidu Cache also need to be updated *
 
 工作阶段说明：
-第一阶段（2月16号 amp 页面在百度生效）
-1、实现对 amp 静态资源的全部 cdn 缓存
-2、实现 amp 页面的改写模块
-3、搜索大环机制：采用 google 提供的 amp url list，以默认信任的方式，替换原 h5 展现 amp 结果
-4、前端机制支持 amp 页面的标记并实现相应跳百度 amp cache 页逻辑
-5、广告&统计模块梳理和支持，使其功能正常，有风险，需和 google 同仁合作
-6、解决 amp 页面的二跳问题（非完美解决方案，可能有降级策略）
+第一阶段（2月16号 AMP 页面在百度生效）
+1、实现对 AMP 静态资源的全部 cdn 缓存
+2、实现 AMP 页面的改写模块
+3、搜索大环机制：采用 Google 提供的 AMP URL list，以默认信任的方式，替换原 h5 展现 AMP 结果
+4、前端机制支持 AMP 页面的标记并实现相应跳百度 AMP cache 页逻辑
+5、广告&统计模块梳理和支持，使其功能正常，有风险，需和 Google 同仁合作
+6、解决 AMP 页面的二跳问题（非完美解决方案，可能有降级策略）
 
 第二阶段（17年2月下旬~5月）
-站长平台提供 amp 提交入口，并能给出数据反馈
-搜索大环打通，大环增加 amp 校验模块
-百度 amp cache 增加页面的 amp 实时校验模块
+站长平台提供 AMP 提交入口，并能给出数据反馈
+搜索大环打通，大环增加 AMP 校验模块
+百度 AMP cache 增加页面的 AMP 实时校验模块
 在线模块的屏蔽复活机制
 完美解决二跳问题
 广告&统计功能完善和优化
 前端交互采用百度 superframe
 
 第三阶段（17年8月）
-cache 更新保持和 amp 接口同步
+cache 更新保持和 AMP 接口同步
+
+III. Task in phases:
+
+First phase: Show AMP page in Baidu search result (by February 16th, 2017)
+1. Cache all AMP static resources.
+2. Rewrite Module of AMP page.
+3. Baidu search cycle: use AMP URL list provided by Google to show AMP pages instead of original html pages
+4. Front-end mechanism: identify tagged AMP URL, and open those who has AMP tag using Baidu AMP cache page.
+5. Advertising & analysis: make sure ad and analysis work normally. Risky, need cooperation from Google.
+6. Link and redirection of AMP page (non perfect solution, there may be a downgrade strategy)
+
+Second phase (by May, 2017)
+1. Baidu Webmaster Platform provides entrance to submit AMP pages, and be able to give data feedback.
+2. Search cycle improvement: add AMP validation module in Baidu search cycle.
+3. Baidu AMP cache validation: Add AMP valication in real time.
+4. Shielding and Resurrection mechanism of realtime modules.
+5. Perfect solution for Link and redirection of AMP page.
+6. Advertising & analysis: improvement and optimization.
+7. Front-end interaction use Baidu superframe.
+
+Third phase (by August, 2017)
+1. Cache update synchronize with AMP.
