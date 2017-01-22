@@ -17,7 +17,7 @@ $ mip init
 ```
 
 ![mipinit](https://github.com/mipengine/mip-blog/blob/master/img/12_mipinit.jpg)  
-
+  
 此时会创建`mip.config`文件，  
 
 ![mip.config](https://github.com/mipengine/mip-blog/blob/master/img/12_mipconfig.jpg)
