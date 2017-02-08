@@ -27,7 +27,7 @@ $ mip addelement mip-alert
 
 ```
 /**
- * @file mip-kkk 组件
+ * @file mip-alert 组件
  * @author Grace
  */
 define(function(require) {
