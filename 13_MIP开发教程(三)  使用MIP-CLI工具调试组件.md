@@ -27,23 +27,23 @@ $ mip addelement mip-alert
 
 ```
 /**
- * @file mip-alert 组件
+ * @file mip-kkk 组件
  * @author Grace
- */  
-define(function (require) {
+ */
+define(function(require) {
     var customElement = require('customElement').create();
-    customElement.prototype.build = function () {
-        var btn = document.createElement('button');
-        btn.innerHTML = '点我';
-        btn.setAttribute('id', 'btn');
-        btn.onclick = function () {
-            alert('这是一个组件');
+    customElement.prototype.build = function() {
+        var element = this.element;
+        var text = element.getAttribute('alert-text') || '默认alert内容';
+        element.onclick = function() {
+            alert(text);
         };
-        document.body.appendChild(btn);
     };
     return customElement;
 });
-```    
+
+```
+ 
 <div id="no2">   </div>
 
 ## 二. 预览调试组件
