@@ -6,7 +6,8 @@ issues是GitHub上为我们提供的追踪器，它有点类似于邮件，站�
 ```
 https://github.com/mipengine/mip-extensions
 ```   
-[链接入口](https://github.com/mipengine/mip-extensions)
+[链接入口](https://github.com/mipengine/mip-extensions)  
+
 issues的位置如箭头方向所指。   
 
 ![mip-extensions](./img/16_1.jpg) 
