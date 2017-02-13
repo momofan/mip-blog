@@ -3,7 +3,7 @@ issues是GitHub上为我们提供的追踪器，它有点类似于邮件，站�
 下面介绍issues的具体使用方式：
 
 ## 1.打开mip-extensions网址
-issues的位置如箭头方向所指。
+issues的位置如箭头方向所指。   
 [mip-extensions](https://github.com/mipengine/mip-extensions)    
 
 ![mip-extensions](./img/16_1.jpg) 
