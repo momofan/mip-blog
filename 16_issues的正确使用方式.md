@@ -20,4 +20,4 @@ issues的位置如箭头方向所指。
 
 ![content](./img/16_3.jpg)   
  提交之后可以在issues列表中查看您提出的issues，项目组会跟进您提出的问题。    
- ![list](./img/16_4.jpg)    
+ ![list](./img/16_error.jpg)    
