@@ -18,15 +18,17 @@ MIP组件审核平台用于提交开发完成的组件，如何开发请参考�
 ![mip-platform-login](https://raw.githubusercontent.com/mipengine/mip-cli/gh-pages/example/mip-platform-login.png)
 
 ### 上传组件
-
-点击`上传组件`按钮，上传mip组件`zip`压缩包，格式请参考：
+1. mip组件编写和调试，参考[MIP开发教程(三)  使用MIP-CLI工具调试组件](https://github.com/mipengine/mip-blog/blob/master/13_MIP%E5%BC%80%E5%8F%91%E6%95%99%E7%A8%8B(%E4%B8%89)%20%20%E4%BD%BF%E7%94%A8MIP-CLI%E5%B7%A5%E5%85%B7%E8%B0%83%E8%AF%95%E7%BB%84%E4%BB%B6.md)。  
+2. 从组件平台上传的组件，需要改下`README.md`中所需脚本的地址为     
+```
+https://mipcache.bdstatic.com/extensions/platform/v1/mip-___/mip-___.js
+```
+注意地址中需要包含“platform” 
+![script](https://github.com/mipengine/mip-blog/blob/master/img/14_script.jpg)     
+3. 点击`上传组件`按钮，上传mip组件`zip`压缩包，格式请参考：  
 ![组件压缩包示例](https://github.com/mipengine/mip-blog/blob/master/img/14_mipzip.jpg)   
-mip组件编写和调试，参考[MIP开发教程(三)  使用MIP-CLI工具调试组件](https://github.com/mipengine/mip-blog/blob/master/13_MIP%E5%BC%80%E5%8F%91%E6%95%99%E7%A8%8B(%E4%B8%89)%20%20%E4%BD%BF%E7%94%A8MIP-CLI%E5%B7%A5%E5%85%B7%E8%B0%83%E8%AF%95%E7%BB%84%E4%BB%B6.md)。
-
-
 
 组件通过校验后，可以提交审核，没有通过校验的组件，需要进行修改，直到通过校验。
-
 ![mip-platform-upload](https://raw.githubusercontent.com/mipengine/mip-cli/gh-pages/example/mip-platform-upload.png)
 
 ### 审核组件
