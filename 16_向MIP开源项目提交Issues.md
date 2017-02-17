@@ -13,16 +13,16 @@ MIP 项目中的 Issues 主要有两种用法：
 
 ### 2. 进入 Issues 目录  
 
-![mip-extensions](../img/16_1.jpg)   
+![mip-extensions](https://github.com/mipengine/mip-blog/blob/master/img/16_1.jpg)   
 
 ### 3. 打开并创建新的 Issue
 
-![new issues](../img/16_2.jpg)  
+![new issues](https://github.com/mipengine/mip-blog/blob/master/img/16_2.jpg)  
 
 ### 4. 输入issues的内容并提交
 
-![content](../img/16_3.jpg)   
+![content](https://github.com/mipengine/mip-blog/blob/master/img/16_3.jpg)   
 
 ### 5. 提交之后可以在issues列表中查看您提出的issues，项目组会跟进您提出的问题。   
 
-![list](../img/16_4.jpg)  
+![list](https://github.com/mipengine/mip-blog/blob/master/img/16_4.jpg)  
