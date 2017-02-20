@@ -33,7 +33,7 @@ MIP 项目中的 Issues 主要有两种用法：
 创建Issues时需要检查已经存在的Issues列表中是否有类似的问题，如果有则不需要重新创建新的Issue，请在已有的Issue下加入讨论，详细描述您出现的问题，Issue的状态更改后会收到邮件通知。       
 ![taolun](https://github.com/mipengine/mip-blog/blob/master/img/16_6.jpg)        
 
-# 三、订阅Issues动态
+## 三、订阅Issues动态
 如果你有想跟进的问题或对哪个Issue比较感兴趣，可以直接订阅动态，   
 订阅后Issues的状态更改也可以收到邮件通知。  
 
