@@ -25,4 +25,9 @@ MIP 项目中的 Issues 主要有两种用法：
 
 ### 5. 提交之后可以在issues列表中查看您提出的issues，项目组会跟进您提出的问题。   
 
-![list](https://github.com/mipengine/mip-blog/blob/master/img/16_4.jpg)  
+![list](https://github.com/mipengine/mip-blog/blob/master/img/16_4.jpg) 
+
+ 在issue状态更改后可以收到邮件通知。    
+
+## 加入issues讨论
+在回复或附议别人的issues，在issue状态更改后也可以收到邮件通知。  
