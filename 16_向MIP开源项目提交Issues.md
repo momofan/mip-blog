@@ -1,5 +1,5 @@
 # 向MIP开源项目提交Issues
-Issues 是 github 管理需求，讨论技术方案的方式，[附：官方解释](https://guides.github.com/features/issues/)。MIP是在github上的开源项目，也使用 Issue 来做任务管理。  
+Issues 是 github 管理需求，讨论技术方案的方式，[附：官方解释](https://guides.github.com/features/issues/)。MIP是在github上的开源项目，也使用 Issues 来做任务管理。  
 
 ## Issues 在 MIP 项目中的应用
 MIP 项目中的 Issues 主要有两种用法：
