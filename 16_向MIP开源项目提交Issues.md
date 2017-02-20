@@ -24,11 +24,17 @@ MIP 项目中的 Issues 主要有两种用法：
 ![content](https://github.com/mipengine/mip-blog/blob/master/img/16_3.jpg)   
 
 ### 5. 提交之后可以在issues列表中查看您提出的issues，项目组会跟进您提出的问题。   
- 在issues状态更改后可以收到邮件通知。  
- 
-![list](https://github.com/mipengine/mip-blog/blob/master/img/16_4.jpg) 
+项目组会定期查看所有Issues，并给待解决的Issues打上不同的标签来方便分类。   
 
-    
+![list](https://github.com/mipengine/mip-blog/blob/master/img/16_4.jpg)   
 
-## 加入issues讨论
-在回复或附议别人的issues，在issues状态更改后也可以收到邮件通知。  
+
+## 二、加入Issue讨论
+创建Issues时需要检查已经存在的Issues列表中是否有类似的问题，如果有则不需要重新创建新的Issue，请在已有的Issue下加入讨论，详细描述您出现的问题，Issue的状态更改后会收到邮件通知。       
+![taolun](https://github.com/mipengine/mip-blog/blob/master/img/16_6.jpg)        
+
+# 三、订阅Issues动态
+如果你有想跟进的问题或对哪个Issue比较感兴趣，可以直接订阅动态，   
+订阅后Issues的状态更改也可以收到邮件通知。  
+
+![dingyue](https://github.com/mipengine/mip-blog/blob/master/img/16_5.jpg)  
