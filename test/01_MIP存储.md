@@ -20,7 +20,7 @@
 ### 使用方式
 ```
 var util = require('util');
-var customStorage = new util.customStorage([param]);
+var customStorage = new util.customStorage([type]);
 ```
 
 ### API
@@ -30,109 +30,122 @@ var customStorage = new util.customStorage([param]);
 #### new util.customStorage(type)
 - customStorage类，用于初始化存储对象
 - 参数列表
-```
-参数       类型       描述
-type      number   type为存储类型，0表示local storage存储，1表示站长管理存储
-```
+
+    参数|类型|必选|描述
+    ---|---|---|---
+    type|number|是|type为存储类型，0表示local storage存储，1表示站长管理存储
+
 - 示例
-```
-var customStorage = new util.customStorage(0);
-```
+
+    ```
+    var customStorage = new util.customStorage(0);
+    ```
 
 #### customStorage.set(name, value, [expire], [callback])
 - 设置当前站点下的存储；
 - 参数列表
-```
-参数       类型       描述
-name      string   存储名称
-value     string   存储值
-expire    number   存储的过期时间，指的是当前站点整个存储的过期时间，单位为s
-callback  Function 存储出现问题时的回调，分为两种情况，一种是当前站点存储超限（4k），一种是超过local storage最大存储值（一般浏览器为5M），这个错误是针对所有站点的存储空间的
-```
+
+    参数|类型|必选|描述
+    ---|---|---|---
+    name|string|是|存储名称
+    value|string|是|存储值
+    expire|number|否|存储的过期时间，指的是当前站点整个存储的过期时间，单位为s
+    callback|Function|否|存储出现问题时的回调，分为两种情况，一种是当前站点存储超限（4k），一种是超过local storage最大存储值（一般浏览器为5M），这个错误是针对所有站点的存储空间的
+
 - 示例
-```
-btn.onclick = function() {
-    customStorage.set('a', '这是a');
-    customStorage.set('b', '这是b');
-}
-```
+
+    ```
+    btn.onclick = function() {
+        customStorage.set('a', '这是a');
+        customStorage.set('b', '这是b');
+    }
+    ```
 
 #### callback返回的error对象结构
-```
-参数       类型       描述
-errCode   string   错误号，21为当前站点超限，22位整个local storage存储空间不足
-errMess   string   错误信息
-```
+
+参数|类型|描述
+---|---|---
+errCode|string|错误号，21为当前站点超限，22位整个local storage存储空间不足
+errMess|string|错误信息
+
 #### customStorage.get(name)
 - 获取当前站点下的存储；
 - 参数列表
-```
-参数       类型       描述
-name      string   存储名称
-```
+
+    参数|类型|必选|描述
+    ---|---|---|---
+    name|string|是|存储名称
+
 - 示例
-```
-var a = customStorage.get('a');
-```
+
+    ```
+    var a = customStorage.get('a');
+    ```
 
 #### customStorage.rm(name)
 - 删除当前站点下的存储；
 - 参数列表
-```
-参数       类型       描述
-name      string   存储名称
-```
+
+    参数|类型|必选|描述
+    ---|---|---|---
+    name|string|是|存储名称
+
 - 示例
-```
-customStorage.rm('b');
-```
+
+    ```
+    customStorage.rm('b');
+    ```
 
 #### customStorage.rmExpires()
 - 删除整个local storage存储中过期的站点存储数据；
 - 示例
-```
-customStorage.rmExpires();
-```
+
+    ```
+    customStorage.rmExpires();
+    ```
 
 #### customStorage.clear()
 - 清空当前站点下数据存储；
 - 示例
-```
-customStorage.clear();
-```
+
+    ```
+    customStorage.clear();
+    ```
 
 #### 2. 站长管理存储
 #### customStorage.request(opt)
 - 发起站长请求的函数，将数据通过请求传给站长，由其对数据进行设置或获取；
 - 请求通过fetch的方式发出，具体可参考[使用fetch](https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API/Using_Fetch)和[GlobalFetch.fetch()](https://developer.mozilla.org/zh-CN/docs/Web/API/GlobalFetch/fetch)两篇文章；
 - 参数列表
-```
-参数         类型       描述
-url         string   必选，发送请求的地址
-method      string   可选，默认为get，请求方法 (GET, POST, or other)
-mode        string   可选，请求的模式，如 cors, no-cors,  same-origin
-headers     Object   可选， 请求的头信息，形式为 Headers 对象或 yteString
-body        Object/string   可选，请求的 body 信息,可能是一个 Blob、BufferSource、FormData、URLSearchParams 或者 USVString 对象，注意 GET 或 HEAD 方法的请求不能包含 body 信息
-credentials string   可选，请求的 credentials，如omit、same-origin 或者 include
-cache       string   可选，请求的 cache 模式: default, no-store, reload, no-cache, force-cache, or only-if-cached
-```
+
+    参数|类型|必选|描述
+    ---|---|---|---
+    url|string|是|发送请求的地址
+    method|string|否|默认为get，请求方法 (GET, POST, or other)
+    mode|string|否|请求的模式，如 cors, no-cors,  same-origin
+    headers|Object|否|请求的头信息，形式为 Headers 对象或 yteString
+    body|Object|否|请求的 body 信息,可能是一个 Blob、BufferSource、FormData、URLSearchParams 或者 USVString 对象，注意 GET 或 HEAD 方法的请求不能包含 body 信息
+    credentials|string|否|请求的 credentials，如omit、same-origin 或者 include
+    cache|string|否|请求的 cache 模式: default, no-store, reload, no-cache, force-cache, or only-if-cached
+
 - 示例
-```
-storage1.request({
-    url: 'http://example.com/',
-    type: 'POST',
-    data: JSON.stringify({
-      aa: 1,
-      bb: 2
-    }),
-    success: function() {
-      console.log('success');
-    },
-    error: function(e) {
-      console.log(e);
-    }
-});
-```
+
+    ```
+    storage1.request({
+        url: 'http://example.com/',
+        type: 'POST',
+        data: JSON.stringify({
+          aa: 1,
+          bb: 2
+        }),
+        success: function() {
+          console.log('success');
+        },
+        error: function(e) {
+          console.log(e);
+        }
+    });
+    ```
 
 #### 站长管理存储后端需要如何做校验来保证安全性？
 
