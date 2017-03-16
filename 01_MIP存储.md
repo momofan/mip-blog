@@ -49,7 +49,7 @@ var customStorage = new util.customStorage([type]);
     ---|---|---|---
     name|string|是|存储名称
     value|string|是|存储值
-    expire|number|否|存储的过期时间，指的是当前站点整个存储的过期时间，单位为s
+    expire|number|否|存储的过期时间，指的是当前站点整个存储的过期时间，单位为ms
     callback|Function|否|存储出现问题时的回调，分为两种情况，一种是当前站点存储超限（4k），一种是超过local storage最大存储值（一般浏览器为5M），这个错误是针对所有站点的存储空间的
 
 - 示例
