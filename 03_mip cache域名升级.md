@@ -14,7 +14,7 @@ MIP-Cache URL 是经过 CDN 缓存的 MIP 页面地址，指向 MIP Cache 服务
 MIP cache 域名进行升级后，针对以上问题进行改进，将`mipcache.bdstatic.com`替换为`xxx.mipcdn.com`,会将 mip 站点域名处理后与 mipcache 域名进行拼接，形成新的域名（泛域名），将域名中包含 "." 的，替换为 " - "，将域名中包含 " - " 的，替换为 " -- ",
 具体实例：
 
-> 原有cache页：   
+> 原有cache页：       
 
 ```
 https://mipcache.bdstatic.com/c/s/www.mipengine.org/
