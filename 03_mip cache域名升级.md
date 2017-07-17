@@ -24,7 +24,7 @@ https://mipcache.bdstatic.com/c/s/www.mipengine.org/
 > 升级之后： 
      
 ```
-http://www-mipengine-org.mipcdn.com/c/s/www.mipengine.org/
+https://www-mipengine-org.mipcdn.com/c/s/www.mipengine.org/
 
 ```
 
