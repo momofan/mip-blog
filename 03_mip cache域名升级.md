@@ -11,8 +11,8 @@ MIPCache URL 通过 https 提供服务，增强内容的安全性的同时，亦
 升级之前，所有站点的 MIP 页面在搜索结果页中打开时的域名都是一样的，官网的 MIPCache URL 为例`https://mipcache.bdstatic.com`，这种URL存在如下弊端：   
 
 - 站点域名隐藏比较深，在URL中后部
-- 页面下的Cookie会有过大的风险
-- 不方便以Host为粒度，区分相关特征
+- 页面下的 Cookie 会有过大的风险
+- 不方便以 Host 为粒度，区分相关特征
 
 ## 升级方案
 
@@ -22,20 +22,18 @@ MIPCache URL 通过 https 提供服务，增强内容的安全性的同时，亦
 1. 域名中的`.`被替换为`-`  
 2. 域名中的`-`被替换为`--` 
 
-还是以MIP官网的URL为例子：
+还是以 MIP 官网的 URL 为例子：
 
 > 原有 MIPCache 页面的 url：
 
 ```
 https://mipcache.bdstatic.com/c/s/www.mipengine.org/
-
 ```
 
 > 升级之后： 
      
 ```
 https://www-mipengine-org.mipcdn.com/c/s/www.mipengine.org/
-
 ```
 
 ## 升级之后的好处 
