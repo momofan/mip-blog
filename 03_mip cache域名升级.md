@@ -4,13 +4,13 @@
 
 先举个例子，MIP 官网的 URL 为：`https://www.mipengine.org`，对应的 MIPCache 的 URL 为   `https://mipcache.bdstatic.com/c/s/www.mipengine.org`。   
 所谓 MIPCache URL 是经过 MIPCache CDN 缓存后的 MIP 页面地址，指向 MIPCache 的服务器。   
-MIPCache URL对应的内容则是通过 spider 抓取 MIP 页面的网页内容并进行缓存而来。   
+MIPCache URL 对应的内容则是通过 spider 抓取 MIP 页面的网页内容并进行缓存而来。   
 MIPCache URL 通过 https 提供服务，增强内容的安全性的同时，亦可以在百度的搜索结果页中安全打开。       
 ## 升级背景 
 
-升级之前，所有站点的 MIP 页面在搜索结果页中打开时的域名都是一样的，官网的 MIPCache URL 为例`https://mipcache.bdstatic.com`，这种URL存在如下弊端：   
+升级之前，所有站点的 MIP 页面在搜索结果页中打开时的域名都是一样的，官网的 MIPCache URL 为例`https://mipcache.bdstatic.com`，这种 URL 存在如下弊端：   
 
-- 站点域名隐藏比较深，在URL中后部
+- 站点域名隐藏比较深，在 URL 中后部
 - 页面下的 Cookie 会有过大的风险
 - 不方便以 Host 为粒度，区分相关特征
 
@@ -19,8 +19,8 @@ MIPCache URL 通过 https 提供服务，增强内容的安全性的同时，亦
 `mipcache.bdstatic.com` 将被替换为 `{host_prefix}.mipcdn.com`
 其中，`{host_prefix}` 遵循的替换规则如下：
 
-1. 域名中的`.`被替换为`-`  
-2. 域名中的`-`被替换为`--` 
+1. 域名中的 `.` 被替换为 `-`  
+2. 域名中的 `-` 被替换为 `--` 
 
 还是以 MIP 官网的 URL 为例子：
 
