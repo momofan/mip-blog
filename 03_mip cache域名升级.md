@@ -2,7 +2,16 @@
 
 ## MIPCache URL 是什么
 
-先举个例子，MIP 官网的 URL 为：`https://www.mipengine.org`，对应的 MIPCache 的 URL 为   `https://mipcache.bdstatic.com/c/s/www.mipengine.org`。   
+先举个例子
+> MIP 官网的 URL 为：
+```
+https://www.mipengine.org
+```
+> 对应的 MIPCache 的 URL 为：
+```
+https://mipcache.bdstatic.com/c/s/www.mipengine.org
+```
+
 所谓 MIPCache URL 是经过 MIPCache CDN 缓存后的 MIP 页面地址，指向 MIPCache 的服务器。   
 MIPCache URL 对应的内容则是通过 spider 抓取 MIP 页面的网页内容并进行缓存而来。   
 MIPCache URL 通过 https 提供服务，增强内容的安全性的同时，亦可以在百度的搜索结果页中安全打开。       
